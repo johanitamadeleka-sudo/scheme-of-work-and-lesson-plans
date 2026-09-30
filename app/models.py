@@ -38,6 +38,8 @@ class Syllabus(Base):
     subject = Column(String, nullable=False)
     form = Column(String, nullable=False)
     source_note = Column(String, nullable=True)
+    # Weekly period allocation stated in the syllabus (e.g. Physics Form I = 3)
+    periods_per_week = Column(Integer, nullable=True)
     created_at = Column(DateTime, server_default=func.now(), nullable=False)
 
     topics = relationship("Topic", back_populates="syllabus", cascade="all, delete-orphan")
@@ -86,6 +88,11 @@ class Objective(Base):
     sub_topic_id = Column(Integer, ForeignKey("sub_topics.id"), nullable=False)
     order = Column(Integer, nullable=False)
     text = Column(Text, nullable=False)
+    # Optional per-activity details taken from the syllabus matrix
+    periods = Column(Integer, nullable=True)
+    teaching_methods = Column(Text, nullable=True)
+    resources = Column(Text, nullable=True)
+    assessment_criteria = Column(Text, nullable=True)
 
     sub_topic = relationship("SubTopic", back_populates="objectives")
 
@@ -166,6 +173,8 @@ class AllocationAssignment(Base):
     periods = Column(Integer, nullable=False)
     split_index = Column(Integer, nullable=True)
     split_total = Column(Integer, nullable=True)
+    # Effective weekly period budget used when this assignment was allocated
+    week_budget = Column(Integer, nullable=True)
 
     syllabus = relationship("Syllabus")
     calendar = relationship("CalendarData")
@@ -183,6 +192,7 @@ class LessonPlan(Base):
     assignment_id = Column(Integer, ForeignKey("allocation_assignments.id"), nullable=False)
     period_number = Column(Integer, nullable=False)
     date = Column(Date, nullable=True)
+    learning_activity = Column(Text, nullable=True)
     teacher_activities = Column(Text, nullable=True)
     student_activities = Column(Text, nullable=True)
     assessment = Column(Text, nullable=True)

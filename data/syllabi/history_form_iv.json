@@ -1,0 +1,125 @@
+{
+  "subject": "History",
+  "form": "Form IV",
+  "source_note": "TIE (2023), History Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 3,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of the history of nation-building in post-colonial Africa",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Demonstrate mastery of the history of nation-building in post-colonial Africa",
+          "planned_periods": 30,
+          "competences": [
+            "(a) Describe the concept and origin of nation-building in Africa",
+            "(b) Evaluate the strategies used in nation-building"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the concept and origin of nation-building in Africa",
+              "periods": 15,
+              "teaching_methods": "Guide students in groups to discuss the meaning and evolution of nation-building in various post-colonial African countr",
+              "resources": "On-line sources, journal articles, reports, speeches on the concept and origin of nation-building in Africa",
+              "assessment_criteria": "The concept and origin of nation – building in Africa is well described"
+            },
+            {
+              "order": 2,
+              "text": "(b) Evaluate the strategies used in nation-building",
+              "periods": 15,
+              "teaching_methods": "Invite a guest speaker to present on the strategies used in nations-building in Africa",
+              "resources": null,
+              "assessment_criteria": "The strategies used in nation building in Africa are precisely described"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "1.2",
+          "title": "Demonstrate an understanding of the successes and challenges of nation-building in post-colonial Africa",
+          "planned_periods": 30,
+          "competences": [
+            "(a) Appraise the achievements and challenges of nation-building in post-colonial Africa",
+            "(b) Design and carry out a project on nation-building between the 1960s and 1970s (use one African country as a case study)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Appraise the achievements and challenges of nation-building in post-colonial Africa",
+              "periods": 15,
+              "teaching_methods": "Prepare a class debate on achievements and challenges of Nation- building in independent African countries",
+              "resources": "On-line sources, journal articles, reports and speeches on the achievements and challenges of nation-building in post-colonial Africa",
+              "assessment_criteria": "The achievements and challenges of nation-building in post-colonial Africa accurately described"
+            },
+            {
+              "order": 2,
+              "text": "(b) Design and carry out a project on nation-building between the 1960s and 1970s (use one African country as a case study)",
+              "periods": 15,
+              "teaching_methods": "Facilitate students to explore a topic for a project on nation-building between the 1960s and 1970s from one of the Afri",
+              "resources": null,
+              "assessment_criteria": "A project on nation-building between the 1960s and 1970s by using one African country as a case study is accurately designed, carried out, and a report is submitted"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Demonstrate mastery of the history of Africa’s participation in regional and international affairs",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Demonstrate an understanding of the regional integration in Africa",
+          "planned_periods": 30,
+          "competences": [
+            "(a) Describe the origin and development of the Organisation of African Unity (OAU/ African Union (AU) and economic regional groupings in Africa",
+            "(b) Assess the performance of continental and regional integration efforts in Africa"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the origin and development of the Organisation of African Unity (OAU/ African Union (AU) and economic regional groupings in Africa",
+              "periods": 15,
+              "teaching_methods": "Divide students into four groups and assign them with appropriate references from the internet to study on the establish",
+              "resources": "On-line sources, reports speeches, pictures and photographs on origin and development of the Organisation of African Unity (OAU/African Union (AU) and economic regional groupings in Africa",
+              "assessment_criteria": "The origin and development of the Organisation of African Unity (OAU/African Union (AU) and economic regional groupings in Africa is precisely described"
+            },
+            {
+              "order": 2,
+              "text": "(b) Assess the performance of continental and regional integration efforts in Africa",
+              "periods": 15,
+              "teaching_methods": "Prepare a motion on the performance of continental and regional integration efforts in Africa for students to debate",
+              "resources": "On-line sources, reports speeches, pictures and photographs on the performance of continental and regional integration efforts in Africa",
+              "assessment_criteria": "The performance of continental and regional integration efforts in Africa is evidently assessed"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "2.2",
+          "title": "Demonstrate an understanding of the history of Africa’s participation in the United Nations Organisation",
+          "planned_periods": 15,
+          "competences": [
+            "Appraise African participation in the United Nations and its agencies"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "Appraise African participation in the United Nations and its agencies",
+              "periods": 15,
+              "teaching_methods": "Let students debate on participation of Africa in the United Nations and its agencies (UNICEF, UNDP, WHO, UNESCO, UNCHR,",
+              "resources": "On-line sources, reports speeches, pictures and photographs on the performance of African participation in the United Nations and its agencies",
+              "assessment_criteria": "African participation in the United Nations and its agencies is clearly reviewed"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

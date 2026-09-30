@@ -1,0 +1,211 @@
+{
+  "subject": "Chemistry",
+  "form": "Form III",
+  "source_note": "TIE (2023), Chemistry Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 4,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of basic concepts, theories and principles in Chemistry",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Demonstrate mastery of concepts, theories and principles in Chemistry",
+          "planned_periods": 68,
+          "competences": [
+            "(a) Describe the mole concept (comparison of the mole with other units of measurements and molar quantities of substances)",
+            "(b) Explain Avogadro’s law in relation to molar quantities",
+            "(c) Explain the principles of volumetric analysis (preparation of standard solutions and volumetric calculations)",
+            "(d) Describe the applications of volumetric analysis in real life and industrial settings as in soft drinks and cocktail making, medicine and in agriculture",
+            "(e) Explore the basic tenets of ionic theory and electrolysis (ionic theory, mechanism of electrolysis and laws of electrolysis)",
+            "(f) Describe the preparation and properties of various compounds of metals (oxides, hydroxides, carbonates, hydrogen carbonates, nitrates, chlorides and sulphates of metals)",
+            "(g) Describe the oxidizing and displacement properties of non-metal compounds (oxygen, hydrogen, chlorine, hydrogen chloride, sulphur dioxide, nitrogen, ammonia, and carbon dioxide)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the mole concept (comparison of the mole with other units of measurements and molar quantities of substances)",
+              "periods": 10,
+              "teaching_methods": "Outdoor learning, Classroom assignments",
+              "resources": "Analytical balance, different chemicals, and videos, animations, simulations, pictures/ wall, charts illustrating the molar mass of elements",
+              "assessment_criteria": "The mole concept is clearly decribed"
+            },
+            {
+              "order": 2,
+              "text": "(b) Explain Avogadro’s law in relation to molar quantities",
+              "periods": 10,
+              "teaching_methods": "Group discussion",
+              "resources": "Scientific calculator and analytical balance",
+              "assessment_criteria": "The Avogadro’s Law is clearly explained and correctly applied in calculating molar quantities"
+            },
+            {
+              "order": 3,
+              "text": "(c) Explain the principles of volumetric analysis (preparation of standard solutions and volumetric calculations)",
+              "periods": 10,
+              "teaching_methods": "Brainstorming, Project works, Group discussion",
+              "resources": "Analytical balance, pipette, burette, volumetric flasks, beakers, distilled water, petri dish, watch glass, funnels, wash bottles, HCl, H SO , 2 4 HNO , 3 CH COOH, 3 NaOH, Ca(OH) , 2 Na CO , 2 3 NaHCO 3",
+              "assessment_criteria": "The principles of volumetric analysis are clearly explained"
+            },
+            {
+              "order": 4,
+              "text": "(d) Describe the applications of volumetric analysis in real life and industrial settings as in soft drinks and cocktail making, medicine and in agriculture",
+              "periods": 10,
+              "teaching_methods": "Experimentation",
+              "resources": "Pipettes, burettes, volumetric flasks, beakers, distilled water, petri dish, watch glass, funnels, wash bottles, backing powder, vinegar, processed juice, antacids tablets and suspensions, fertiliser, NaOH, HCl, H SO , HNO , 2 4 3 CH COOH, 3 Ca(OH) , 2 Na CO and 2 3 NaHCO 3",
+              "assessment_criteria": "The applications of volumetric analysis in real life and industrial settings are clearly described"
+            },
+            {
+              "order": 5,
+              "text": "(e) Explore the basic tenets of ionic theory and electrolysis (ionic theory, mechanism of electrolysis and laws of electrolysis)",
+              "periods": 10,
+              "teaching_methods": "Group discussion, Experimentation, Field Trip",
+              "resources": "Electrolytic cells, pencils, battery (dry cells), connecting wire, distilled water, acid, H SO , 2 4 CuSO , 4 ZnSO , NaCl, 4 KCl, and simulations or videos, diagrams, pictures, wall charts, illustrating principles of ionic theory and electrolysis",
+              "assessment_criteria": "The basic principles of ionic theory and electrolysis are clearly described"
+            },
+            {
+              "order": 6,
+              "text": "(f) Describe the preparation and properties of various compounds of metals (oxides, hydroxides, carbonates, hydrogen carbonates, nitrates, chlorides and sulphates of metals)",
+              "periods": 9,
+              "teaching_methods": "Inquiry-based learning",
+              "resources": "Periodic table, lead metal, iron strips, magnesium nitrate, zinc sulphate, lead nitrate, copper sulphate, silver nitrate, magnesium ribbon, aluminium foil, laboratory glassware, water trough, flasks, gas jars, kipps apparatus, combustion tube, heat sources, hydrochloric acid, sulphuric acid and the first 20 elements of the periodic table",
+              "assessment_criteria": "The preparation and properties of various compounds of metals are clearly described"
+            },
+            {
+              "order": 7,
+              "text": "(g) Describe the oxidizing and displacement properties of non-metal compounds (oxygen, hydrogen, chlorine, hydrogen chloride, sulphur dioxide, nitrogen, ammonia, and carbon dioxide)",
+              "periods": 9,
+              "teaching_methods": "Group discussion, Project works",
+              "resources": "Wall charts and pictures showing some important oxidation reactions, periodic table, oxygen gas, hydrogen gas, chlorine gas, hydrogen chloride gas, sulphur dioxide gas, nitrogen gas, ammonia gas, carbon dioxide gas, coloured flower, dyes, hydrogen sulphide, Iron(II) chloride, potassium dichromate and potassium permanganate",
+              "assessment_criteria": "Oxidizing and displacement properties of non-metal compounds are clearly described"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Conduct experiments in Chemistry",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Conduct experiments in Chemistry",
+          "planned_periods": 58,
+          "competences": [
+            "(a) Perform experiments on volumetric analysis",
+            "(b) Perform experiments on the applications of electrolysis in corrosion inhibition and purification of metals",
+            "(c) Use appropriate software to sketch the set-ups of experiments",
+            "(d) Prepare various compounds of metals (oxides, hydroxides, carbonates, hydrogen carbonates, nitrates, chlorides, and sulphates)",
+            "(e) Demonstrate oxidizing and displacement properties of non-metallic compounds (oxygen, hydrogen, chlorine, hydrogen chloride, sulphur dioxide, nitrogen, ammonia and carbon dioxide)",
+            "(f) Prepare sulphuric acid from sulphur dioxide"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Perform experiments on volumetric analysis",
+              "periods": 10,
+              "teaching_methods": "Experimentation, Field trips",
+              "resources": "Analytical balance, pipette, burette, volumetric flasks, beakers, distilled water, laboratory glassware, funnels, wash bottles, NaOH, HCl, H SO , 2 4 HNO , 3 CH COOH, 3 Ca(OH) , 2 Na CO and 2 3 NaHCO 3",
+              "assessment_criteria": "Experiments on volumetric analysis are performed correctly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Perform experiments on the applications of electrolysis in corrosion inhibition and purification of metals",
+              "periods": 10,
+              "teaching_methods": "Experimentation",
+              "resources": "Graph papers, sand papers, dry cells Li-ion (3 V &6 V), Lead acid cells (12 V, 5 Ah-7 Ah), Sulphuric acid, copper(II) sulphate, copper ores and sheets, spoon, copper wires, sodium chloride, graphite rods plate, aluminium ores, gold, zinc, impure copper plates, chloride/ sulphate, iron plates, distilled water, potassium dichromate, coulometer, pure copper rods, ammeter, voltmeter, and 100 mL and 250 mL beakers",
+              "assessment_criteria": "Experiments on the applications of electrolysis in corrosion, inhibition and purification of metals are correctly performed"
+            },
+            {
+              "order": 3,
+              "text": "(c) Use appropriate software to sketch the set-ups of experiments",
+              "periods": 10,
+              "teaching_methods": "Experimentation",
+              "resources": "Chemistry-based computer software",
+              "assessment_criteria": "The set-ups of experiments are correctly sketched using Chemistry software"
+            },
+            {
+              "order": 4,
+              "text": "(d) Prepare various compounds of metals (oxides, hydroxides, carbonates, hydrogen carbonates, nitrates, chlorides, and sulphates)",
+              "periods": 10,
+              "teaching_methods": "Group discussion, Experimentation",
+              "resources": "Periodic table, lead metal, iron strips, magnesium nitrate, zinc sulphate, lead nitrate, copper sulphate, silver nitrate, magnesium ribbon, aluminium foil, water trough, laboratory glassware, flasks, gas jars, Kipps apparatus, combustion tube, heat sources, hydrochloric acid, sulphuric acid and the first 20 elements of the periodic table",
+              "assessment_criteria": "Various compounds of metals are correctly prepared"
+            },
+            {
+              "order": 5,
+              "text": "(e) Demonstrate oxidizing and displacement properties of non-metallic compounds (oxygen, hydrogen, chlorine, hydrogen chloride, sulphur dioxide, nitrogen, ammonia and carbon dioxide)",
+              "periods": 9,
+              "teaching_methods": "Group discussion, Inquiry-based learning",
+              "resources": "Periodic table, oxygen gas, hydrogen gas, chlorine gas, hydrogen chloride gas, sulphur dioxide gas, nitrogen gas, ammonia gas, carbon dioxide gas, coloured flower, dyes, hydrogen sulphide, iron (II) chloride, potassium dichromate and potassium permanganate and videos, animations or simulations, wall charts and pictures illustrating some important oxidation reactions",
+              "assessment_criteria": "Oxidizing and displacement properties of non-metal compounds are correctly demonstrated"
+            },
+            {
+              "order": 6,
+              "text": "(f) Prepare sulphuric acid from sulphur dioxide",
+              "periods": 9,
+              "teaching_methods": "Experimentation",
+              "resources": "Wall charts showing the laboratory / industrial preparation of sulphuric acid, sulphur dioxide, distilled water, delivery tubes and flasks with side arms",
+              "assessment_criteria": "Sulphuric acid from sulphur dioxide is correctly prepared"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "topic_id_code": "3.0",
+      "title": "Demonstrate mastery of basic principles of extraction of metals",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "3.1",
+          "title": "Demonstrate mastery of the principles of extraction of metals",
+          "planned_periods": 10,
+          "competences": [
+            "(a) Describe the extraction of iron from its ore (ores, stages, and methods of extraction)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the extraction of iron from its ore (ores, stages, and methods of extraction)",
+              "periods": 10,
+              "teaching_methods": "Field trips, Group discussion",
+              "resources": "Wall charts showing the metals ores and their methods for extraction, and real ores for metals present in Tanzania",
+              "assessment_criteria": "The methods for iron extraction from its ore are clearly described"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "topic_id_code": "4.0",
+      "title": "Conduct a project in Chemistry",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "4.1",
+          "title": "Conduct a project in Chemistry",
+          "planned_periods": 20,
+          "competences": [
+            "(a) Design and carry-out a simple research project in Chemistry"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Design and carry-out a simple research project in Chemistry",
+              "periods": 20,
+              "teaching_methods": "Group discussion, Project works",
+              "resources": "Library resources and videos, animations or simulations illustrating simple projects in chemistry",
+              "assessment_criteria": "A simple research project in Chemistry is designed and developed correctly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

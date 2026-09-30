@@ -1,0 +1,161 @@
+{
+  "subject": "Computer Science",
+  "form": "Form I",
+  "source_note": "TIE (2023), Computer Science Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 2,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of the basic Concepts of Computer Science",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Demonstrate an understanding of the concept of Computer Science",
+          "planned_periods": 8,
+          "competences": [
+            "(a) Describe the concept of Computer Science (meaning, importance, application)",
+            "(b) Describe fields related to Computer Science (IT, ICT, IS, Computer Engineering)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the concept of Computer Science (meaning, importance, application)",
+              "periods": 4,
+              "teaching_methods": "Share (TIPS)",
+              "resources": "Handouts with contents of Computer Science concepts",
+              "assessment_criteria": "Confidently describe the concept of Computer Science field"
+            },
+            {
+              "order": 2,
+              "text": "(b) Describe fields related to Computer Science (IT, ICT, IS, Computer Engineering)",
+              "periods": 4,
+              "teaching_methods": "Question and answer, guest speaker; and/or case study",
+              "resources": null,
+              "assessment_criteria": "Confidently describe fields related to Computer Science"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "1.2",
+          "title": "Demonstrate an understanding of computer systems",
+          "planned_periods": 28,
+          "competences": [
+            "(a) Describe computer systems (Meaning, types, functions, and significance)",
+            "(b) Describe computer hardware (meaning, components, functions, computer generation)",
+            "(c) Describe computer software (meaning, types, functions)",
+            "(d) Describe and observe principles of computer system handling (safety measures, management, cleanliness, data backup and utilities)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe computer systems (Meaning, types, functions, and significance)",
+              "periods": 7,
+              "teaching_methods": "Questions and answers",
+              "resources": "Computer, Hand-out, Flip board and digital podium, electronic blackboard",
+              "assessment_criteria": "Clearly describe computer systems"
+            },
+            {
+              "order": 2,
+              "text": "(b) Describe computer hardware (meaning, components, functions, computer generation)",
+              "periods": 7,
+              "teaching_methods": "Small groups, Demonstration",
+              "resources": "Computer, printer, scaner, camera, projector, flashdisk, hard disk memory card, smart phone, tablets and motherboard",
+              "assessment_criteria": "Realise parts of computer hardware and their functions"
+            },
+            {
+              "order": 3,
+              "text": "(c) Describe computer software (meaning, types, functions)",
+              "periods": 7,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Realise types of computer software and their functions"
+            },
+            {
+              "order": 4,
+              "text": "(d) Describe and observe principles of computer system handling (safety measures, management, cleanliness, data backup and utilities)",
+              "periods": 7,
+              "teaching_methods": "Group discussion, Demonstration, Practical work",
+              "resources": "Computer, printer, scaner, projector, flashdisk, memory card, smart phone, tablets and hard disk",
+              "assessment_criteria": "Clearly observe principles of handling the computer system"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "sub_topic_id_code": "1.3",
+          "title": "Demonstrate mastery of maintenance and troubleshooting of computer system",
+          "planned_periods": 6,
+          "competences": [
+            "(a) Install simple computer software",
+            "(b) Organise computer files in different operating systems (windows, Linux, etc)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Install simple computer software",
+              "periods": 3,
+              "teaching_methods": "Practical Work",
+              "resources": "Computer, CDs with different software, hand out and dard disk",
+              "assessment_criteria": "Can install computer software"
+            },
+            {
+              "order": 2,
+              "text": "(b) Organise computer files in different operating systems (windows, Linux, etc)",
+              "periods": 3,
+              "teaching_methods": "Practical Work",
+              "resources": "Computer installed with recommended OSs, hand out, simulated steps videos and smart phone",
+              "assessment_criteria": "Can use operating systems to organise computer files"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Demonstrate mastery of the basic principles of Computer Science",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Demonstrate mastery of the basic principles in problem solving (concept of problem solving, steps of problem solving, concept of algorithms)",
+          "planned_periods": 30,
+          "competences": [
+            "(a) Describe the steps in solving a problem using computers",
+            "(b) Demonstrate an understanding of basic principle of algorithms",
+            "(c) Design and present a single algorithm using flow charts and pseudocode"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the steps in solving a problem using computers",
+              "periods": 10,
+              "teaching_methods": "Brainstorming, the steps of solving a problem using computer",
+              "resources": "Computer, smart phone, hand outs of of the basic principles in problem solving and tablets",
+              "assessment_criteria": "Clearly describe the steps of solving a problem using computer"
+            },
+            {
+              "order": 2,
+              "text": "(b) Demonstrate an understanding of basic principle of algorithms",
+              "periods": 10,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Clearly explain how the algorithm can be used to address problems"
+            },
+            {
+              "order": 3,
+              "text": "(c) Design and present a single algorithm using flow charts and pseudocode",
+              "periods": 10,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Confidently can apply algorithms to present new ways to address problems"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

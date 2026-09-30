@@ -10,15 +10,20 @@ from docx.shared import Inches, Pt
 from app.models import AllocationAssignment, LessonPlan
 
 
-# Reference citation matching the sample
-REFERENCE_CITATION = (
-    "Tanzania Institute of Education. (2023). Basic Mathematics for secondary "
-    "schools student's book, Form One. Tanzania Institute of Education."
-)
+def _reference_citation(assignment: AllocationAssignment, subject: str) -> str:
+    """Build the reference line from textbook entries or the syllabus source."""
+    books = [e.book_title for e in assignment.sub_topic.textbook_entries]
+    if books:
+        return "; ".join(dict.fromkeys(books))
+    source = assignment.syllabus.source_note if assignment.syllabus else None
+    return source or (
+        f"Tanzania Institute of Education. (2023). {subject} Syllabus for "
+        "Ordinary Secondary Education Form I-IV."
+    )
 
 
 def _get_objective_for_period(assignment: AllocationAssignment, period_number: int) -> str:
-    """Get the objective text for a given period within an assignment."""
+    """Fallback objective text for a period (when no activity was stored)."""
     objectives = sorted(assignment.sub_topic.objectives, key=lambda o: o.order)
     if not objectives:
         return assignment.sub_topic.title
@@ -44,7 +49,9 @@ def _add_lesson_plan_section(
     specific_competence = sub_topic.title
 
     # Get objective for this period
-    objective_text = _get_objective_for_period(assignment, lesson_plan.period_number)
+    objective_text = lesson_plan.learning_activity or _get_objective_for_period(
+        assignment, lesson_plan.period_number
+    )
 
     # Title
     title_p = doc.add_paragraph("TEACHER'S LESSON PLAN")
@@ -100,12 +107,12 @@ def _add_lesson_plan_section(
         run.font.size = Pt(10)
 
     # Teaching and Learning Resources
-    resources_text = lesson_plan.teaching_resources or "Charts, calculators, real objects"
+    resources_text = lesson_plan.teaching_resources or "Charts, relevant books, real objects"
     doc.add_paragraph(f"Teaching and Learning Resources:")
     doc.add_paragraph(resources_text)
 
     # References
-    doc.add_paragraph(f"References: {REFERENCE_CITATION}")
+    doc.add_paragraph(f"References: {_reference_citation(assignment, subject)}")
 
     # Teaching and Learning Process header
     process_p = doc.add_paragraph("Teaching and Learning Process")
@@ -140,19 +147,15 @@ def _add_lesson_plan_section(
     # Competence Development row
     stages_table.rows[2].cells[0].text = "Competence Development"
     stages_table.rows[2].cells[1].text = "20"
-    stages_table.rows[2].cells[2].text = (
+    stages_table.rows[2].cells[2].text = lesson_plan.teacher_activities or (
         f"Provide students with short guiding questions and ask them in groups to "
-        f"{objective_text.lower()}. "
-        "Display a video or pictures with different activities of a lesson. "
-        "Then, ask them in pairs to identify activities the video or pictures drawn."
+        f"{objective_text.lower()}."
     )
-    stages_table.rows[2].cells[3].text = (
-        "Discuss and share what they have learnt in the lesson. "
-        "Watch and identify different activities of a lesson from the video."
+    stages_table.rows[2].cells[3].text = lesson_plan.student_activities or (
+        "Discuss and share what they have learnt in the lesson."
     )
-    stages_table.rows[2].cells[4].text = (
-        "Everything taught today is clearly explained. "
-        "Different activities of a lesson are identified."
+    stages_table.rows[2].cells[4].text = lesson_plan.assessment or (
+        "Everything taught today is clearly explained."
     )
 
     # Design row

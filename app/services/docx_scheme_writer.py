@@ -1,5 +1,6 @@
 """DOCX writer for Scheme of Work documents."""
 
+import re
 from io import BytesIO
 
 from docx import Document
@@ -42,8 +43,14 @@ ORDINAL_MAP = {
 
 
 def _week_to_ordinal(week_number: int) -> str:
-    """Convert a week number to ordinal text."""
-    return ORDINAL_MAP.get(week_number, f"{week_number}th")
+    """Convert a week number to ordinal text (1st, 2nd, 11th, 21st, ...)."""
+    if week_number in ORDINAL_MAP:
+        return ORDINAL_MAP[week_number]
+    if 10 <= week_number % 100 <= 20:
+        suffix = "th"
+    else:
+        suffix = {1: "st", 2: "nd", 3: "rd"}.get(week_number % 10, "th")
+    return f"{week_number}{suffix}"
 
 
 def _derive_month(week_label: str | None) -> str:
@@ -193,7 +200,7 @@ def generate_scheme_docx(scheme: SchemeOfWorkResponse) -> BytesIO:
 
         # LEARNING ACTIVITIES = first objective
         if entry.objectives:
-            cells[2].text = entry.objectives[0]
+            cells[2].text = "\n".join(entry.objectives)
         else:
             cells[2].text = entry.sub_topic_title
 
@@ -201,7 +208,8 @@ def generate_scheme_docx(scheme: SchemeOfWorkResponse) -> BytesIO:
         if entry.objectives:
             activities = []
             for obj in entry.objectives:
-                activities.append(f"To guide students to {obj.lower()}")
+                text = re.sub(r"^\s*\([a-z]{1,3}\)\s*", "", obj)
+                activities.append(f"To guide students to {text[:1].lower() + text[1:]}")
             cells[3].text = "\n".join(activities)
         else:
             cells[3].text = f"To guide students to {entry.sub_topic_title.lower()}"
@@ -222,7 +230,7 @@ def generate_scheme_docx(scheme: SchemeOfWorkResponse) -> BytesIO:
         cells[8].text = entry.teaching_resources or ""
 
         # ASSESSMENT TOOLS
-        cells[9].text = "Oral Questions Exercises Quizzes Home works"
+        cells[9].text = entry.assessment or "Oral Questions Exercises Quizzes Home works"
 
         # REFERENCES
         cells[10].text = entry.references or ""

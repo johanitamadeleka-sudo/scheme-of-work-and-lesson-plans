@@ -13,6 +13,18 @@ from app.models import (
     Week,
 )
 from app.schemas import SchemeOfWorkEntry, SchemeOfWorkResponse
+from app.services.activity_mapping import objectives_for_assignment
+
+
+def _dedupe_join(parts: list[str], sep: str = ", ") -> str:
+    """Join comma-separated fragments, removing duplicates (case-insensitive)."""
+    seen: dict[str, str] = {}
+    for part in parts:
+        for item in (part or "").split(sep):
+            item = item.strip().rstrip(".")
+            if item and item.lower() not in seen:
+                seen[item.lower()] = item
+    return sep.join(seen.values())
 
 
 def generate_scheme_of_work(
@@ -58,9 +70,14 @@ def generate_scheme_of_work(
         if assignment.split_total and assignment.split_total > 1:
             sub_topic_title += f" (Part {assignment.split_index}/{assignment.split_total})"
 
-        # Get objectives ordered by order
-        objectives = sorted(sub_topic.objectives, key=lambda o: o.order)
+        # Learning activities actually taught in this week's part of the competence
+        objectives = objectives_for_assignment(assignment, db)
         objective_texts = [obj.text for obj in objectives]
+        syllabus_methods = _dedupe_join([o.teaching_methods for o in objectives if o.teaching_methods])
+        syllabus_resources = _dedupe_join([o.resources for o in objectives if o.resources])
+        assessment = "; ".join(
+            dict.fromkeys(o.assessment_criteria for o in objectives if o.assessment_criteria)
+        ) or None
 
         # Get textbook references for this sub-topic
         textbook_entries = (
@@ -80,16 +97,18 @@ def generate_scheme_of_work(
                     ref += f" p.{entry.start_page}"
                 resources_parts.append(ref)
                 references_parts.append(entry.book_title)
-            teaching_resources = ", ".join(resources_parts)
+            teaching_resources = _dedupe_join([syllabus_resources, ", ".join(resources_parts)])
             # Deduplicate reference book titles
             references = ", ".join(dict.fromkeys(references_parts))
         else:
-            teaching_resources = "Charts, real objects"
-            references = "Syllabus, Teacher's guide"
+            teaching_resources = syllabus_resources or "Charts, real objects"
+            references = f"{syllabus.source_note or 'Syllabus'}, Teacher's guide"
 
         # Derive teaching methods from competences or use sensible defaults
         competences = sub_topic.competences
-        if competences and isinstance(competences, list) and len(competences) > 0:
+        if syllabus_methods:
+            teaching_methods = syllabus_methods
+        elif competences and isinstance(competences, list) and len(competences) > 0:
             # Map competences to teaching methods
             method_set = []
             for comp in competences:
@@ -121,6 +140,7 @@ def generate_scheme_of_work(
             periods=assignment.periods,
             teaching_methods=teaching_methods,
             teaching_resources=teaching_resources,
+            assessment=assessment,
             references=references,
         )
         entries.append(entry)

@@ -1,0 +1,143 @@
+{
+  "subject": "Mathematics",
+  "form": "Form III",
+  "source_note": "TIE (2023), Mathematics Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 5,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of basic concepts in geometry and algebra",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Use geometry, approximations, relations and functions in various contexts",
+          "planned_periods": 58,
+          "competences": [
+            "(a) Describe the concepts of relations and functions (linear and quadratic) (types of relations, domain and range of relations, graphs of relations and functions, inverse of relations, and functions)",
+            "(b) Find the domain and range of relations and functions",
+            "(c) Find the inverses of relations and functions",
+            "(d) Draw graphs of relations and functions"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the concepts of relations and functions (linear and quadratic) (types of relations, domain and range of relations, graphs of relations and functions, inverse of relations, and functions)",
+              "periods": 15,
+              "teaching_methods": "Collaborative learning, Exploration, Visual representation, Project",
+              "resources": "Function animation, graph boards and papers, calculators, charts of real life scenarios Mathematical software such as Mathematica, GeoGebra",
+              "assessment_criteria": "Concepts of relations and functions are clearly described"
+            },
+            {
+              "order": 2,
+              "text": "(b) Find the domain and range of relations and functions",
+              "periods": 15,
+              "teaching_methods": "Jigsaw",
+              "resources": null,
+              "assessment_criteria": "Domain and range of relations and functions are clearly described"
+            },
+            {
+              "order": 3,
+              "text": "(c) Find the inverses of relations and functions",
+              "periods": 14,
+              "teaching_methods": "Problem solving",
+              "resources": null,
+              "assessment_criteria": "The inverse of relations and functions are correctly found"
+            },
+            {
+              "order": 4,
+              "text": "(d) Draw graphs of relations and functions",
+              "periods": 14,
+              "teaching_methods": "Visual representation, Use of technology",
+              "resources": null,
+              "assessment_criteria": "The graphs of relations and functions are correctly drawn"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "1.2",
+          "title": "Use algebra and matrices in problem solving",
+          "planned_periods": 78,
+          "competences": [
+            "Explore the basic tenets of algebra (linear programming: constraints, objective functions, and optimal solution)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "Explore the basic tenets of algebra (linear programming: constraints, objective functions, and optimal solution)",
+              "periods": 78,
+              "teaching_methods": "Jigsaw, Graphical methods, Use of technology, Problems solving",
+              "resources": "Function animation, graph boards and papers, calculators, charts of real life scenarios Mathematical software such as Mathematica, GeoGebra",
+              "assessment_criteria": "The concepts of linear programming are clearly explored"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "sub_topic_id_code": "1.3",
+          "title": "Use sets, sequences and series in problem solving",
+          "planned_periods": 58,
+          "competences": [
+            "(a) Explore the basic tenets of sequences and series (Arithmetic progression AP, Geometric progression GP)",
+            "(b) Find the general term for AP and GP and use them to derive formulae for the sums of APs and GPs",
+            "(c) Calculate arithmetic mean, geometric mean, and compound interest"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Explore the basic tenets of sequences and series (Arithmetic progression AP, Geometric progression GP)",
+              "periods": 20,
+              "teaching_methods": "Exploration, Visual representation",
+              "resources": "Pattern puzzles, pattern blocks, visual aids, sequence and series games and applications, calculators,",
+              "assessment_criteria": "The concepts of sequences and series are clearly explored"
+            },
+            {
+              "order": 2,
+              "text": "(b) Find the general term for AP and GP and use them to derive formulae for the sums of APs and GPs",
+              "periods": 19,
+              "teaching_methods": "Exploration, Group discussion",
+              "resources": null,
+              "assessment_criteria": "The formulae for the sum of APs and GPs are correctly derived"
+            },
+            {
+              "order": 3,
+              "text": "(c) Calculate arithmetic mean, geometric mean, and compound interest",
+              "periods": 19,
+              "teaching_methods": "Exploration, Think-ink-pair-share, Interactive discussion",
+              "resources": null,
+              "assessment_criteria": "The arithmetic mean, geometric mean, and compound interest are correctly found"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Demonstrate mastery of basic concepts in coordinate geometry, trigonometry, circles, vectors, probability and statistics",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Use basic skills of circles in daily life",
+          "planned_periods": 39,
+          "competences": [
+            "Explore the basic tenets of a circle (angle properties, theorems, tangents, chords and radians)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "Explore the basic tenets of a circle (angle properties, theorems, tangents, chords and radians)",
+              "periods": 39,
+              "teaching_methods": "Think-ink-pair-share, Scenario, Visual representation",
+              "resources": "Charts of circle theorems, circle theorems animations, circle simulations, mathematical sets, visual aids, Mathematical software such as GeoGebra,",
+              "assessment_criteria": "The concept of circle is clearly explored"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

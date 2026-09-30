@@ -1,0 +1,186 @@
+{
+  "subject": "Computer Science",
+  "form": "Form IV",
+  "source_note": "TIE (2023), Computer Science Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 2,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of the basic Concepts of Computer Science",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.4",
+          "title": "Demonstrate mastery of systems administration",
+          "planned_periods": 10,
+          "competences": [
+            "(a) Maintain computer systems – desktop, laptop, tablets, mobile (create, delete/ disable user account, create, modify, and reset password, user support, peripherals)",
+            "(b) Apply troubleshooting tools and techniques",
+            "(c) Use selected OS to Perform system administration tasks"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Maintain computer systems – desktop, laptop, tablets, mobile (create, delete/ disable user account, create, modify, and reset password, user support, peripherals)",
+              "periods": 4,
+              "teaching_methods": "TIPS, Practical work",
+              "resources": "Projector, Computer (desktop, laptop, tablets, mobile), Internet connectivity",
+              "assessment_criteria": "confidently maintain the computer system"
+            },
+            {
+              "order": 2,
+              "text": "(b) Apply troubleshooting tools and techniques",
+              "periods": 3,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Clearly identify the roles of system administrator and responsibly troubleshoot a system"
+            },
+            {
+              "order": 3,
+              "text": "(c) Use selected OS to Perform system administration tasks",
+              "periods": 3,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Responsibly administer and maintain a system"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Demonstrate mastery of the basic principles of Computer Science",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.5",
+          "title": "Demonstrate mastery of basic principles of web development (HTML, CSS, and JavaScript)",
+          "planned_periods": 30,
+          "competences": [
+            "(a) Describe the background of HTML and selected programming languages (CSS, JavaScript)",
+            "(b) Install and configure the CSS and JavaScript interpreter (e.g., a web browser)",
+            "(c) Create webpages using HTML and CSS, JavaScript",
+            "(d) Publish website",
+            "(e) Appraise the published website"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the background of HTML and selected programming languages (CSS, JavaScript)",
+              "periods": 6,
+              "teaching_methods": "Brainstorming or TIPS",
+              "resources": "Computer installed with appropriate programming tools",
+              "assessment_criteria": "Clearly explain the background of HTML, CSS, and JavaScript"
+            },
+            {
+              "order": 2,
+              "text": "(b) Install and configure the CSS and JavaScript interpreter (e.g., a web browser)",
+              "periods": 6,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Mastery the installation and configuration of CSS and JavaScript interpreter"
+            },
+            {
+              "order": 3,
+              "text": "(c) Create webpages using HTML and CSS, JavaScript",
+              "periods": 6,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Successfully create static webpage using HTML, CSS, and JavaScript"
+            },
+            {
+              "order": 4,
+              "text": "(d) Publish website",
+              "periods": 6,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Successfully publish the website"
+            },
+            {
+              "order": 5,
+              "text": "(e) Appraise the published website",
+              "periods": 6,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Can point out the use of developed website"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "2.6",
+          "title": "Demonstrate mastery of basic principles of mobile App",
+          "planned_periods": 20,
+          "competences": [
+            "(a) Create mobile App using the syntax of the selected program",
+            "(b) Publish Mobile Apps",
+            "(c) Appraise the efficacy of the published Mobile Apps"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Create mobile App using the syntax of the selected program",
+              "periods": 7,
+              "teaching_methods": "Demonstration",
+              "resources": "Computer installed with appropriate programming tools for mobole Apps",
+              "assessment_criteria": "Can read, write, test, and modify JavaScript languages upon creating a mobile App"
+            },
+            {
+              "order": 2,
+              "text": "(b) Publish Mobile Apps",
+              "periods": 7,
+              "teaching_methods": "Demonstration",
+              "resources": null,
+              "assessment_criteria": "Can publish a mobile App"
+            },
+            {
+              "order": 3,
+              "text": "(c) Appraise the efficacy of the published Mobile Apps",
+              "periods": 6,
+              "teaching_methods": "Questions and answer",
+              "resources": null,
+              "assessment_criteria": "Can point out the use of developed mobile App"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "topic_id_code": "3.0",
+      "title": "Demonstrate mastery of the basic principles of data management",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "3.2",
+          "title": "Demonstrate the mastery of the basic principles of data analysis",
+          "planned_periods": 10,
+          "competences": [
+            "(a) Describe principles of data analysis (data collection, pre-processing, processing, visualization, interpretation)",
+            "(b) Analysis simple data using selected tools (e.g., SPSS, Excel, etc.)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe principles of data analysis (data collection, pre-processing, processing, visualization, interpretation)",
+              "periods": 5,
+              "teaching_methods": "Questions and answer",
+              "resources": "Computer installed with data analysis tools, projector",
+              "assessment_criteria": "Can point out the principles of data analysis"
+            },
+            {
+              "order": 2,
+              "text": "(b) Analysis simple data using selected tools (e.g., SPSS, Excel, etc.)",
+              "periods": 5,
+              "teaching_methods": "Practical work",
+              "resources": null,
+              "assessment_criteria": "Successfully analysis simple data using selected tools"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
