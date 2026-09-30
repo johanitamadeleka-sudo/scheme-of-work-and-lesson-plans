@@ -1,0 +1,371 @@
+{
+  "academic_year": "2026",
+  "terms": [
+    {
+      "order": 1,
+      "term_id_code": "T1",
+      "title": "First Term 2026",
+      "weeks": [
+        {
+          "week_number": 1,
+          "start_date": "2026-01-13",
+          "end_date": "2026-02-28",
+          "classification": "holiday",
+          "period_budget": 0,
+          "label": "Registration & Orientation 13/01/2026 - 28/02/2026"
+        },
+        {
+          "week_number": 2,
+          "start_date": "2026-03-02",
+          "end_date": "2026-03-06",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "March Week 1"
+        },
+        {
+          "week_number": 3,
+          "start_date": "2026-03-09",
+          "end_date": "2026-03-13",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "March Week 2"
+        },
+        {
+          "week_number": 4,
+          "start_date": "2026-03-16",
+          "end_date": "2026-03-20",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "March Week 3"
+        },
+        {
+          "week_number": 5,
+          "start_date": "2026-03-23",
+          "end_date": "2026-03-27",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "March Week 4"
+        },
+        {
+          "week_number": 6,
+          "start_date": "2026-03-27",
+          "end_date": "2026-03-27",
+          "classification": "examination",
+          "period_budget": 0,
+          "label": "Mid-term Assessment"
+        },
+        {
+          "week_number": 7,
+          "start_date": "2026-03-27",
+          "end_date": "2026-04-08",
+          "classification": "holiday",
+          "period_budget": 0,
+          "label": "Mid-term Break 27/03/2026 - 08/04/2026"
+        },
+        {
+          "week_number": 8,
+          "start_date": "2026-04-09",
+          "end_date": "2026-04-13",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "April Week 1"
+        },
+        {
+          "week_number": 9,
+          "start_date": "2026-04-14",
+          "end_date": "2026-04-18",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "April Week 2"
+        },
+        {
+          "week_number": 10,
+          "start_date": "2026-04-20",
+          "end_date": "2026-04-25",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "April Week 3"
+        },
+        {
+          "week_number": 11,
+          "start_date": "2026-04-27",
+          "end_date": "2026-05-01",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "April Week 4"
+        },
+        {
+          "week_number": 12,
+          "start_date": "2026-05-04",
+          "end_date": "2026-05-08",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "May Week 1"
+        },
+        {
+          "week_number": 13,
+          "start_date": "2026-05-11",
+          "end_date": "2026-05-15",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "May Week 2"
+        },
+        {
+          "week_number": 14,
+          "start_date": "2026-05-18",
+          "end_date": "2026-05-22",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "May Week 3"
+        },
+        {
+          "week_number": 15,
+          "start_date": "2026-05-25",
+          "end_date": "2026-05-29",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "May Week 4"
+        },
+        {
+          "week_number": 16,
+          "start_date": "2026-06-01",
+          "end_date": "2026-06-05",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "June Week 1"
+        },
+        {
+          "week_number": 17,
+          "start_date": "2026-06-08",
+          "end_date": "2026-06-12",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "June Week 2"
+        },
+        {
+          "week_number": 18,
+          "start_date": "2026-06-15",
+          "end_date": "2026-06-19",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "June Week 3"
+        },
+        {
+          "week_number": 19,
+          "start_date": "2026-06-22",
+          "end_date": "2026-06-26",
+          "classification": "examination",
+          "period_budget": 0,
+          "label": "Terminal Assessment"
+        },
+        {
+          "week_number": 20,
+          "start_date": "2026-06-26",
+          "end_date": "2026-07-06",
+          "classification": "holiday",
+          "period_budget": 0,
+          "label": "First Term Break 05/06/2026 - 06/07/2026"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "term_id_code": "T2",
+      "title": "Second Term 2026",
+      "weeks": [
+        {
+          "week_number": 1,
+          "start_date": "2026-07-06",
+          "end_date": "2026-07-10",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "July Week 1"
+        },
+        {
+          "week_number": 2,
+          "start_date": "2026-07-13",
+          "end_date": "2026-07-17",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "July Week 2"
+        },
+        {
+          "week_number": 3,
+          "start_date": "2026-07-20",
+          "end_date": "2026-07-24",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "July Week 3"
+        },
+        {
+          "week_number": 4,
+          "start_date": "2026-07-27",
+          "end_date": "2026-07-31",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "July Week 4"
+        },
+        {
+          "week_number": 5,
+          "start_date": "2026-08-03",
+          "end_date": "2026-08-07",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "August Week 1"
+        },
+        {
+          "week_number": 6,
+          "start_date": "2026-08-10",
+          "end_date": "2026-08-14",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "August Week 2"
+        },
+        {
+          "week_number": 7,
+          "start_date": "2026-08-17",
+          "end_date": "2026-08-21",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "August Week 3"
+        },
+        {
+          "week_number": 8,
+          "start_date": "2026-08-24",
+          "end_date": "2026-08-28",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "August Week 4"
+        },
+        {
+          "week_number": 9,
+          "start_date": "2026-08-31",
+          "end_date": "2026-09-04",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "September Week 1"
+        },
+        {
+          "week_number": 10,
+          "start_date": "2026-09-04",
+          "end_date": "2026-09-04",
+          "classification": "examination",
+          "period_budget": 0,
+          "label": "Mid-term Assessment"
+        },
+        {
+          "week_number": 11,
+          "start_date": "2026-09-04",
+          "end_date": "2026-09-14",
+          "classification": "holiday",
+          "period_budget": 0,
+          "label": "Mid-term Break 04/09/2026 - 14/09/2026"
+        },
+        {
+          "week_number": 12,
+          "start_date": "2026-09-14",
+          "end_date": "2026-09-18",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "September Week 3"
+        },
+        {
+          "week_number": 13,
+          "start_date": "2026-09-21",
+          "end_date": "2026-09-25",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "September Week 4"
+        },
+        {
+          "week_number": 14,
+          "start_date": "2026-09-28",
+          "end_date": "2026-10-02",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "October Week 1"
+        },
+        {
+          "week_number": 15,
+          "start_date": "2026-10-05",
+          "end_date": "2026-10-09",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "October Week 2"
+        },
+        {
+          "week_number": 16,
+          "start_date": "2026-10-12",
+          "end_date": "2026-10-16",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "October Week 3"
+        },
+        {
+          "week_number": 17,
+          "start_date": "2026-10-19",
+          "end_date": "2026-10-23",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "October Week 4"
+        },
+        {
+          "week_number": 18,
+          "start_date": "2026-10-26",
+          "end_date": "2026-10-30",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "November Week 1"
+        },
+        {
+          "week_number": 19,
+          "start_date": "2026-11-02",
+          "end_date": "2026-11-06",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "November Week 2"
+        },
+        {
+          "week_number": 20,
+          "start_date": "2026-11-09",
+          "end_date": "2026-11-13",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "November Week 3"
+        },
+        {
+          "week_number": 21,
+          "start_date": "2026-11-16",
+          "end_date": "2026-11-20",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "November Week 4"
+        },
+        {
+          "week_number": 22,
+          "start_date": "2026-11-23",
+          "end_date": "2026-11-27",
+          "classification": "teaching",
+          "period_budget": 5,
+          "label": "November Week 5"
+        },
+        {
+          "week_number": 23,
+          "start_date": "2026-11-30",
+          "end_date": "2026-12-04",
+          "classification": "examination",
+          "period_budget": 0,
+          "label": "Revision and Annual Assessment"
+        },
+        {
+          "week_number": 24,
+          "start_date": "2026-12-04",
+          "end_date": "2026-12-31",
+          "classification": "holiday",
+          "period_budget": 0,
+          "label": "End of Year Break 04/12/2026"
+        }
+      ]
+    }
+  ]
+}

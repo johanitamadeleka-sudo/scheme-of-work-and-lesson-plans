@@ -1,0 +1,259 @@
+{
+  "subject": "Mathematics",
+  "form": "Form II",
+  "source_note": "TIE (2023), Mathematics Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 5,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of mathematical language",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Use rates and variations in different contexts",
+          "planned_periods": 11,
+          "competences": [
+            "(a) Describe the concepts of rates and variations",
+            "(b) Solve problems on rates and variations"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the concepts of rates and variations",
+              "periods": 6,
+              "teaching_methods": "Exploration",
+              "resources": "Mathematical sets, marker pens, calculators, charts of real life scenarios, graph papers, rates and variation animations",
+              "assessment_criteria": "Concepts of rates and variations are well described"
+            },
+            {
+              "order": 2,
+              "text": "(b) Solve problems on rates and variations",
+              "periods": 5,
+              "teaching_methods": "Group discussion",
+              "resources": null,
+              "assessment_criteria": "Problems on rates and variations are correctly solved"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Demonstrate mastery of basic concepts in geometry and algebra",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Use geometry, approximations, relations and functions in various contexts",
+          "planned_periods": 42,
+          "competences": [
+            "(a) Describe the concepts of geometry (similarities and congruence)",
+            "(b) Recognize properties of similar triangles",
+            "(c) Explain postulates, proofs, and theorems of congruent triangles"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the concepts of geometry (similarities and congruence)",
+              "periods": 14,
+              "teaching_methods": "Exploration",
+              "resources": "Mathematical sets, marker pens, calculators, graph papers, geometrical figures animations, congruence and similarities simulations",
+              "assessment_criteria": "Concepts of geometry are well described"
+            },
+            {
+              "order": 2,
+              "text": "(b) Recognize properties of similar triangles",
+              "periods": 14,
+              "teaching_methods": "Visual representation, Jigsaw, Exploration",
+              "resources": null,
+              "assessment_criteria": "Properties of similar triangles are clearly recognized"
+            },
+            {
+              "order": 3,
+              "text": "(c) Explain postulates, proofs, and theorems of congruent triangles",
+              "periods": 14,
+              "teaching_methods": "Group discussion",
+              "resources": null,
+              "assessment_criteria": "Postulates, proofs, and theorems of congruent triangles are clearly explained"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "2.2",
+          "title": "Use algebra and matrices in problem solving",
+          "planned_periods": 68,
+          "competences": [
+            "(a) Explore the basic tenets of algebra (binary operations, quadratic expressions and equations, radicals, exponents, and logarithms)",
+            "(b) Solve quadratic equations by using different methods (factorisation, Completing the square, and quadratic formula)",
+            "(c) Identify and use laws of exponents involving positive, negative, and zero exponents (multiplication law, division law, power law, and zero index)",
+            "(d) Write numbers in standard form",
+            "(e) Use laws of logarithms to solve problems",
+            "(f) Perform operations on radicals and rationalize the denominators"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Explore the basic tenets of algebra (binary operations, quadratic expressions and equations, radicals, exponents, and logarithms)",
+              "periods": 12,
+              "teaching_methods": "Jigsaw, Graphical methods, Use of technology, Problems solving",
+              "resources": "Mathematical sets, marker pens, calculators, Mathematical software such as GeoGebra, MATLAB, Maple, Mathematica, graphing calculators",
+              "assessment_criteria": "Basic tenets of algebra are explored correctly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Solve quadratic equations by using different methods (factorisation, Completing the square, and quadratic formula)",
+              "periods": 12,
+              "teaching_methods": "Group discussion",
+              "resources": null,
+              "assessment_criteria": "Quadratic equations are solved correctly"
+            },
+            {
+              "order": 3,
+              "text": "(c) Identify and use laws of exponents involving positive, negative, and zero exponents (multiplication law, division law, power law, and zero index)",
+              "periods": 11,
+              "teaching_methods": "Group discussion, Problem solving",
+              "resources": "Exponent games and applications, exponent puzzles, exponent rule posters, visual aids, exponent animations",
+              "assessment_criteria": "Laws of exponents are clearly identified and used correctly"
+            },
+            {
+              "order": 4,
+              "text": "(d) Write numbers in standard form",
+              "periods": 11,
+              "teaching_methods": "Group discussion",
+              "resources": "Calculators, number charts, exponent games and applications, exponent puzzles, exponent rule posters, visual aids, exponent animations",
+              "assessment_criteria": "Numbers are correctly written in standard form"
+            },
+            {
+              "order": 5,
+              "text": "(e) Use laws of logarithms to solve problems",
+              "periods": 11,
+              "teaching_methods": "Interactive discussion",
+              "resources": null,
+              "assessment_criteria": "Laws of logarithms are used to solve problems correctly"
+            },
+            {
+              "order": 6,
+              "text": "(f) Perform operations on radicals and rationalize the denominators",
+              "periods": 11,
+              "teaching_methods": "Problem solving",
+              "resources": null,
+              "assessment_criteria": "Operations on radicals and denominators are clearly performed"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "sub_topic_id_code": "2.3",
+          "title": "Use sets, sequences and series in problem solving",
+          "planned_periods": 24,
+          "competences": [
+            "(a) Explore the basic tenets of sets (types of sets, subsets, operation with sets, and Venn diagrams of two sets)",
+            "(b) Distinguish among different types of sets (universal set, equal sets, empty/null set, finite and infinite sets, equivalent sets, and disjoint sets)",
+            "(c) Compare sets (subsets and universal sets)",
+            "(d) Perform operations with sets (union, intersection, and complement of a set)",
+            "(e) Represent two sets in a Venn diagram",
+            "(f) Find the number of elements in a set"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Explore the basic tenets of sets (types of sets, subsets, operation with sets, and Venn diagrams of two sets)",
+              "periods": 4,
+              "teaching_methods": "Exploration, Jigsaw",
+              "resources": "Real objects, set simulations, charts of different sets, playing cards, coloured chalks",
+              "assessment_criteria": "Basic tenets of sets are clearly explored"
+            },
+            {
+              "order": 2,
+              "text": "(b) Distinguish among different types of sets (universal set, equal sets, empty/null set, finite and infinite sets, equivalent sets, and disjoint sets)",
+              "periods": 4,
+              "teaching_methods": "Group discussion",
+              "resources": null,
+              "assessment_criteria": "Different types of sets are clearly distinguished"
+            },
+            {
+              "order": 3,
+              "text": "(c) Compare sets (subsets and universal sets)",
+              "periods": 4,
+              "teaching_methods": "Group discussion",
+              "resources": "Real objects, set simulations, charts of different sets, playing cards, coloured chalks",
+              "assessment_criteria": "Sets are clearly compared"
+            },
+            {
+              "order": 4,
+              "text": "(d) Perform operations with sets (union, intersection, and complement of a set)",
+              "periods": 4,
+              "teaching_methods": "Group discussion",
+              "resources": null,
+              "assessment_criteria": "Operations with sets are correctly performed"
+            },
+            {
+              "order": 5,
+              "text": "(e) Represent two sets in a Venn diagram",
+              "periods": 4,
+              "teaching_methods": "Visual representation",
+              "resources": null,
+              "assessment_criteria": "Sets in a Venn diagram are correctly represented"
+            },
+            {
+              "order": 6,
+              "text": "(f) Find the number of elements in a set",
+              "periods": 4,
+              "teaching_methods": "Group discussion",
+              "resources": null,
+              "assessment_criteria": "Number of elements in a set are correctly found"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "topic_id_code": "3.0",
+      "title": "Demonstrate mastery of basic concepts in coordinate geometry, trigonometry, circles, vectors, probability, and statistics",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "3.1",
+          "title": "Use basic coordinate geometry, trigonometry and vectors skills in daily life",
+          "planned_periods": 30,
+          "competences": [
+            "(a) Explore the basic tenets of trigonometry (trigonometric ratios, angles of elevation and depression)",
+            "(b) Determine trigonometric ratios of angles and special angles",
+            "(c) Calculate angles of elevation and depression"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Explore the basic tenets of trigonometry (trigonometric ratios, angles of elevation and depression)",
+              "periods": 10,
+              "teaching_methods": "Exploration",
+              "resources": "Geometry animations, Mathematical software such as GeoGebra, MATLAB, Maple, Mathematica, graph paper, mathematical set",
+              "assessment_criteria": "The basic tenets of trigonometry are clearly explored"
+            },
+            {
+              "order": 2,
+              "text": "(b) Determine trigonometric ratios of angles and special angles",
+              "periods": 10,
+              "teaching_methods": "Group discussion",
+              "resources": null,
+              "assessment_criteria": "Trigonometric ratios of angles and special angles are clearly determined"
+            },
+            {
+              "order": 3,
+              "text": "(c) Calculate angles of elevation and depression",
+              "periods": 10,
+              "teaching_methods": "Jigsaw",
+              "resources": null,
+              "assessment_criteria": "Angles of elevation and depression are calculated correctly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

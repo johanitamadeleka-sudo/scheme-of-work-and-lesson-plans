@@ -1,0 +1,169 @@
+{
+  "subject": "Chemistry",
+  "form": "Form II",
+  "source_note": "TIE (2023), Chemistry Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 3,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of basic concepts, theories and principles in Chemistry",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Demonstrate mastery of concepts, theories and principles in Chemistry",
+          "planned_periods": 81,
+          "competences": [
+            "(a) Describe the modern concept of atomic structure (Dalton’s atomic structure and sub-atomic particles)",
+            "(b) Describe the concept of electronic arrangements",
+            "(c) Use the concept of atomic structure to determine the atomic and mass numbers of an element",
+            "(d) Explain the concept of chemical formulae and nomenclature (valence, oxidation state, radicals and naming of binary inorganic compounds using the IUPAC system)",
+            "(e) Determine empirical and molecular formulae of common compounds",
+            "(f) Describe the concept of chemical bonding (covalent and electrovalent bonding)",
+            "(g) Describe the concept of chemical reactions (chemical equations, balancing chemical equations, and types of chemical reactions)",
+            "(h) Relate the types of chemical reactions with common processes in daily life such as burning of fuel and digestion in living organisms",
+            "(i) Describe acids, bases and salts (reactions of acids and bases with various substances) and their applications in daily life"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the modern concept of atomic structure (Dalton’s atomic structure and sub-atomic particles)",
+              "periods": 9,
+              "teaching_methods": "Think-ink-pair-share, Technological-based learning",
+              "resources": "Diagrams, pictures, wall charts, simulations and videos illustrating Dalton’s atomic structure and sub-atomic particles",
+              "assessment_criteria": "The modern concept of atomic structure is clearly described"
+            },
+            {
+              "order": 2,
+              "text": "(b) Describe the concept of electronic arrangements",
+              "periods": 9,
+              "teaching_methods": "Technological-based learning, Group activity",
+              "resources": "Diagrams, pictures, wall charts, simulations and videos illustrating energy shell diagram, and locally available materials for designing electronic models",
+              "assessment_criteria": "The concept of electronic arrangements in atoms is clearly described"
+            },
+            {
+              "order": 3,
+              "text": "(c) Use the concept of atomic structure to determine the atomic and mass numbers of an element",
+              "periods": 9,
+              "teaching_methods": "Group discussion",
+              "resources": "Models, charts and pictures showing the atomic number of elements, and wall charts showing the number of protons and neutrons of elements",
+              "assessment_criteria": "Atomic numbers and mass numbers of elements are correctly determined"
+            },
+            {
+              "order": 4,
+              "text": "(d) Explain the concept of chemical formulae and nomenclature (valence, oxidation state, radicals and naming of binary inorganic compounds using the IUPAC system)",
+              "periods": 9,
+              "teaching_methods": "Inquiry-based learning, Group discussion, Gallery work",
+              "resources": "Valence cards, modern periodic table, wall charts showing oxidation states and common radicals, and labelled bottles containing different laboratory chemicals",
+              "assessment_criteria": "The concept of chemical formulae and nomenclature are clearly explained"
+            },
+            {
+              "order": 5,
+              "text": "(e) Determine empirical and molecular formulae of common compounds",
+              "periods": 9,
+              "teaching_methods": "Group discussion, Problem solving",
+              "resources": "Model depicting empirical formulae and molecular formulae, wall charts showing molecular fomulae and modern periodic table",
+              "assessment_criteria": "Empirical formulae and molecular formulae of different compounds are correctly determined"
+            },
+            {
+              "order": 6,
+              "text": "(f) Describe the concept of chemical bonding (covalent and electrovalent bonding)",
+              "periods": 9,
+              "teaching_methods": "Outdoor activity, Technological-based learning",
+              "resources": "Selected organic and inorganic structures, Computers installed with Chemistry software",
+              "assessment_criteria": "The concept of chemical bonding is clearly described"
+            },
+            {
+              "order": 7,
+              "text": "(g) Describe the concept of chemical reactions (chemical equations, balancing chemical equations, and types of chemical reactions)",
+              "periods": 9,
+              "teaching_methods": "Group discussion, Think-ink-pair-share, Experimentation",
+              "resources": "Kerosene, candles, KOH/NaOH, HCl, glycerine, selected apparatus and equipment",
+              "assessment_criteria": "The concept of chemical reactions is clearly described"
+            },
+            {
+              "order": 8,
+              "text": "(h) Relate the types of chemical reactions with common processes in daily life such as burning of fuel and digestion in living organisms",
+              "periods": 9,
+              "teaching_methods": "Project works",
+              "resources": "Laboratory note book, heat source and fuel such as charcoal",
+              "assessment_criteria": "The types of chemical reactions are clearly related with common processes in daily life"
+            },
+            {
+              "order": 9,
+              "text": "(i) Describe acids, bases and salts (reactions of acids and bases with various substances) and their applications in daily life",
+              "periods": 9,
+              "teaching_methods": "Inquiry-based learning, Group discussion, Field trips",
+              "resources": "Citrus fruits, vinegar, sour milk, apples, wood ash, tooth paste, baking powder, mineral acids, hydroxides and indicators",
+              "assessment_criteria": "The concepts of acids, bases and salts are clearly described"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "1.2",
+          "title": "Demonstrate an understanding of the physical and chemical properties of elements on the basis of their arrangements in the periodic table",
+          "planned_periods": 18,
+          "competences": [
+            "(a) Explain the changes in the physical and chemical properties of elements across and down the periodic table",
+            "(b) Use the electronic configuration of an element to locate their positions in the periodic table"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Explain the changes in the physical and chemical properties of elements across and down the periodic table",
+              "periods": 9,
+              "teaching_methods": "Group discussion",
+              "resources": "Diagrams, pictures, wall charts, simulations and videos illustrating changes in the physical and chemical properties of elements across and down the periodic table",
+              "assessment_criteria": "Changes in properties of elements across and down the periodic table are correctly explained"
+            },
+            {
+              "order": 2,
+              "text": "(b) Use the electronic configuration of an element to locate their positions in the periodic table",
+              "periods": 9,
+              "teaching_methods": "Group discusion",
+              "resources": "Wall charts of modern periodic table showing electronic configuration of some elements",
+              "assessment_criteria": "The electronic configurations of elements are correctly used to locate the positions of elements in the periodic table"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Conduct experiments in Chemistry",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Conduct experiments in Chemistry",
+          "planned_periods": 18,
+          "competences": [
+            "(a) Prepare acid- base indicators using locally available materials",
+            "(b) Use the prepared indicators to test acidity and alkalinity of substances found in the locality"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Prepare acid- base indicators using locally available materials",
+              "periods": 9,
+              "teaching_methods": "Outdoor activity",
+              "resources": "Coloured flowers, coloured leaves, mortar and pestle, pieces of clothes, heat source, tripod stand lemon juice, tomato juice, sour milk, vinegar, soft drinks and NaOH",
+              "assessment_criteria": "Acid-base indicators are correctly prepared using locally available materials"
+            },
+            {
+              "order": 2,
+              "text": "(b) Use the prepared indicators to test acidity and alkalinity of substances found in the locality",
+              "periods": 9,
+              "teaching_methods": "Experimentation",
+              "resources": "Locally prepared indicator, POP indicator, MO indicator, lemon juice, tomato juice, sour milk, vinegar and soft",
+              "assessment_criteria": "Acidity and alkalinity of substances found in the locality are tested using the prepared indicators"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

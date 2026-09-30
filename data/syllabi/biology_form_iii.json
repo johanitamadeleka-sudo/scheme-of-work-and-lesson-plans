@@ -1,0 +1,106 @@
+{
+  "subject": "Biology",
+  "form": "Form III",
+  "source_note": "TIE (2023), Biology Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 4,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of the concepts, principles and processes of Biology",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Describe the physiological, anatomical and ecological processes of living organisms",
+          "planned_periods": 80,
+          "competences": [
+            "(a) Describe coordination in plants (tropic, responses) and animals (nervous coordination in human, structure of neurones, sense organs and endocrine system)",
+            "(b) Describe the mechanism of excretion in the human body (systems: organs, products)",
+            "(c) Describe the mechanism of regulation in the human body (temperature regulation, blood sugar regulation and osmoregulation)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe coordination in plants (tropic, responses) and animals (nervous coordination in human, structure of neurones, sense organs and endocrine system)",
+              "periods": 27,
+              "teaching_methods": "Brainstorm, Jigsaw, Group discussion",
+              "resources": "Models/pictures of sense organs, young plants, charts showing plants tropic responses, models/charts/ pictures showing structure of neurones and online resouces on plants and animals coordination",
+              "assessment_criteria": "Coordination in plants and animals described clearly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Describe the mechanism of excretion in the human body (systems: organs, products)",
+              "periods": 27,
+              "teaching_methods": "Brainstorming, Group discussion, ICT based learning",
+              "resources": "Models/ charts/ pictures of human urinary system, picture of mammalian kidney, online resources on human excretion and charts illustrating disoders of human excretory system",
+              "assessment_criteria": "The mechanism of excretion in human body is described clearly"
+            },
+            {
+              "order": 3,
+              "text": "(c) Describe the mechanism of regulation in the human body (temperature regulation, blood sugar regulation and osmoregulation)",
+              "periods": 26,
+              "teaching_methods": "Question and answers, Group discussion, ICT based learning",
+              "resources": "Charts on temperature and blood sugar regulation and online resouces of temperature regulation, blood sugar regulation and osmoregulation",
+              "assessment_criteria": "The mechanism of regulation in the human body is described clearly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Conduct biological investigations",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Demonstrate mastery of basic skills for conducting biological investigations",
+          "planned_periods": 40,
+          "competences": [
+            "(a) Investigate the process of nervous coordination (reflex arc and knee jerk)",
+            "(b) Investigate tropic responses in plants"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Investigate the process of nervous coordination (reflex arc and knee jerk)",
+              "periods": 20,
+              "teaching_methods": "Group discussion, ICT based learning, Experimentation",
+              "resources": "Sharp objects, hot objects, animal toys models (snake, scorpion), live small animals specimens and nervous coordination online resources",
+              "assessment_criteria": "The process of nervous coordination is investigated correctly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Investigate tropic responses in plants",
+              "periods": 20,
+              "teaching_methods": "Project",
+              "resources": "Variety of plants Seedlings, pots, seeds, soil, water, boxes and online resources/ charts on tropic responses in plants",
+              "assessment_criteria": "Tropic responses in plants are investigated correctly"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "2.2",
+          "title": "Carry out a biological project work using biological principles",
+          "planned_periods": 20,
+          "competences": [
+            "(a) Develop and carry out a simple research project in Biology"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Develop and carry out a simple research project in Biology",
+              "periods": 20,
+              "teaching_methods": "Group discussion, Experiment",
+              "resources": "Text/online resources on principles of biological projects",
+              "assessment_criteria": "A biological research project work is developed and carried out correctly"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -13,6 +13,14 @@ from app.models import (
     TextbookEntry,
     Week,
 )
+from app.services.activity_mapping import objective_for_period
+
+
+def _strip_label(text: str) -> str:
+    """Drop a leading '(a) ' activity label."""
+    import re
+
+    return re.sub(r"^\s*\([a-z]{1,3}\)\s*", "", text or "").strip()
 
 # Number of school days in a week (Monday to Friday)
 SCHOOL_DAYS_PER_WEEK = 5
@@ -62,14 +70,13 @@ def generate_lesson_plans_for_week(
 
     lesson_plans: list[LessonPlan] = []
 
-    # Calculate periods per day for this week (for date derivation)
-    week_budget = week.period_budget or 0
+    # Calculate periods per day for this week (for date derivation). Use the
+    # subject's effective weekly budget recorded at allocation time.
+    week_budget = assignments[0].week_budget or week.period_budget or 0
     periods_per_day = max(1, math.ceil(week_budget / SCHOOL_DAYS_PER_WEEK))
 
     for assignment in assignments:
         sub_topic = assignment.sub_topic
-        objectives = sorted(sub_topic.objectives, key=lambda o: o.order)
-        first_objective_text = objectives[0].text if objectives else sub_topic.title
 
         # Determine textbook resources
         textbook_entries = (
@@ -88,7 +95,7 @@ def generate_lesson_plans_for_week(
                 resources_parts.append(ref)
             teaching_resources = ", ".join(resources_parts)
         else:
-            teaching_resources = "Charts, calculators, real objects"
+            teaching_resources = None
 
         # Generate lesson plans for each period in this assignment
         for p in range(assignment.first_period, assignment.last_period + 1):
@@ -115,21 +122,35 @@ def generate_lesson_plans_for_week(
                 day_offset = (p - 1) // periods_per_day
                 plan_date = week.start_date + timedelta(days=day_offset)
 
+            objective = objective_for_period(assignment, p, db)
+            activity_text = objective.text if objective else sub_topic.title
+            activity = _strip_label(activity_text)
+            methods = (objective.teaching_methods if objective else None) or (
+                "Explanation, Demonstration, Group discussion"
+            )
+            resources = teaching_resources
+            if objective and objective.resources:
+                resources = ", ".join(filter(None, [objective.resources, teaching_resources]))
+            assessment = (objective.assessment_criteria if objective else None) or (
+                "Oral questions, exercises, quizzes, homework"
+            )
+
             lesson_plan = LessonPlan(
                 assignment_id=assignment.id,
                 period_number=p,
                 date=plan_date,
+                learning_activity=activity_text,
                 teacher_activities=(
-                    f"Guide students to {first_objective_text}. "
-                    "Demonstrate using examples. Provide exercises."
+                    f"Guide students through the activity: {activity}. Use {methods.lower()}. "
+                    "Give examples related to the students' environment and provide tasks."
                 ),
                 student_activities=(
-                    "Participate in discussion. Practice solving problems. "
-                    "Present results to class."
+                    f"Participate in {methods.split(',')[0].strip().lower()}, "
+                    "carry out the given tasks and present findings to the class."
                 ),
-                assessment="Oral questions, exercises, quizzes, homework",
-                consolidation=f"Review key concepts. Assign homework on {sub_topic.title}.",
-                teaching_resources=teaching_resources,
+                assessment=assessment,
+                consolidation=f"Summarise key points and give a task on {sub_topic.title}.",
+                teaching_resources=resources or "Charts, relevant books, real objects",
                 remarks=None,
             )
             db.add(lesson_plan)

@@ -1,0 +1,142 @@
+{
+  "subject": "Biology",
+  "form": "Form II",
+  "source_note": "TIE (2023), Biology Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 3,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of the concepts, principles and processes of Biology",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Describe the physiological, anatomical and ecological processes of living organisms",
+          "planned_periods": 64,
+          "competences": [
+            "(a) Describe nutrition in human and ruminants (nutrients, digestive system and processes)",
+            "(b) Describe the mechanism of transportation of materials in flowering plants (vascular system, absorption and movement of water and mineral salts and transpiration)",
+            "(c) Describe the mechanism of transportation of materials in the human body (the mammalian heart, blood vessels, blood, blood circulation)",
+            "(d) Describe the mechanisms of gaseous exchange and respiration in mammals (gaseous exchange in mammals, aerobic and anaerobic respiration)",
+            "(e) Describe the mechanism of gaseous exchange in plants (parts of plants responsible for gaseous exchange and the process)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe nutrition in human and ruminants (nutrients, digestive system and processes)",
+              "periods": 13,
+              "teaching_methods": "Brainstorming, Jigsaw, ICT-Based learning, Group discussion, disorders of human digestive system",
+              "resources": "Variety of food substances, charts/ pictures displaying variety of food nutrients, models/charts of human and ruminant digestive system, dissected mammal specimen displaying digestive system, charts/ photographs showing common disorders and diseases of human digestive system",
+              "assessment_criteria": "Nutrition in human and ruminants is described clearly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Describe the mechanism of transportation of materials in flowering plants (vascular system, absorption and movement of water and mineral salts and transpiration)",
+              "periods": 13,
+              "teaching_methods": "Brainstorming, Group discussion, ICT based learning, Question and answers",
+              "resources": "Charts/model/ photographs showing transportation of materials in plants, relevant equipment and apparati, stain, potted plants, germinated seeds, and transportation of materials in plants online resources",
+              "assessment_criteria": "Mechanism of transportation of materials in flowering plants is described clearly"
+            },
+            {
+              "order": 3,
+              "text": "(c) Describe the mechanism of transportation of materials in the human body (the mammalian heart, blood vessels, blood, blood circulation)",
+              "periods": 13,
+              "teaching_methods": "Brainstorming, Field trip, ICT-Based learning, Group discussion",
+              "resources": "Mammalian heart models/ charts/ photographs, blood circulatory system online resources, dissected mammal displaying the heart and major blood vessels and charts showing diseases and disorders of human circulatory system",
+              "assessment_criteria": "The mechanism of transportation of materials in the human body are described clearly"
+            },
+            {
+              "order": 4,
+              "text": "(d) Describe the mechanisms of gaseous exchange and respiration in mammals (gaseous exchange in mammals, aerobic and anaerobic respiration)",
+              "periods": 13,
+              "teaching_methods": "Brainstorm, ICT-based learning, Group discussion, Guest speaker, Exploration",
+              "resources": "Models/ photographs/ charts showing structure of the lungs and alveolus in human, online resources on gaseous exchange and respiration in mammals",
+              "assessment_criteria": "The mechanisms of gaseous exchange and respiration in mammals are described clearly"
+            },
+            {
+              "order": 5,
+              "text": "(e) Describe the mechanism of gaseous exchange in plants (parts of plants responsible for gaseous exchange and the process)",
+              "periods": 12,
+              "teaching_methods": "Questions and answers, ICT based learning",
+              "resources": "Plant leaves, photographs showing the structure of stomata, potted plants, charts/pictures of gaseous exchange in plants, and gaseous exchange in plants online resources",
+              "assessment_criteria": "The mechanism of gaseous exchange in plants is described clearly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Conduct biological investigations",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Demonstrate mastery of basic skills for conducting biological investigations",
+          "planned_periods": 31,
+          "competences": [
+            "(a) Investigate food nutrients in various food samples",
+            "(b) Investigate processes of transportation of materials in flowering plants",
+            "(c) Carry out experiments to determine the pulse rate in human",
+            "(d) Investigate aerobic and anaerobic respiration in living organisms"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Investigate food nutrients in various food samples",
+              "periods": 8,
+              "teaching_methods": "Group discussion, Laboratory practical",
+              "resources": "Relevant reagents and chemicals, various food samples, apparati and source of heat",
+              "assessment_criteria": "Food nutrients in various food samples are investigated correctly using the scientific procedures"
+            },
+            {
+              "order": 2,
+              "text": "(b) Investigate processes of transportation of materials in flowering plants",
+              "periods": 8,
+              "teaching_methods": "Group discussion, Experimentation",
+              "resources": "Diagram/ video showing transverse section of living plant tissues, mounted slides of plant tissues, relevant reagents and chemicals, source of heat, plants with variegated leaves, distilled water, ringed plant, charts/ video showing transportation of materials in plants, and online resources on transportation of materials in plants",
+              "assessment_criteria": "Processes of transportation of materials in flowering plants are investigated correctly"
+            },
+            {
+              "order": 3,
+              "text": "(c) Carry out experiments to determine the pulse rate in human",
+              "periods": 8,
+              "teaching_methods": "Experimentation",
+              "resources": "Blood pressure machine, smartphone app, digital fitness trackers and exercise machine",
+              "assessment_criteria": "Experiments to determine the pulse rate in human are carried out correctly"
+            },
+            {
+              "order": 4,
+              "text": "(d) Investigate aerobic and anaerobic respiration in living organisms",
+              "periods": 7,
+              "teaching_methods": "Experimentation",
+              "resources": "Charts/ diagrams on aerobic and anaerobic respiration of living organisms",
+              "assessment_criteria": "Aerobic and anaerobic respiration in living organisms are investigated correctly"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "2.2",
+          "title": "Prepare and present results of biological investigations",
+          "planned_periods": 10,
+          "competences": [
+            "(a) Prepare and present a report of a biological investigation on ( food nutrients in various food samples, transportation of materials in flowering plants, pulse rate in human, aerobic and anaerobic respiration )"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Prepare and present a report of a biological investigation on ( food nutrients in various food samples, transportation of materials in flowering plants, pulse rate in human, aerobic and anaerobic respiration )",
+              "periods": 10,
+              "teaching_methods": "Project, Presentation",
+              "resources": "Steps / procedures for biological investigations online resources",
+              "assessment_criteria": "A biological investigation report is prepared and presented correctly using scientific procedures"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

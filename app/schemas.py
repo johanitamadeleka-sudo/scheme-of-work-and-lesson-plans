@@ -10,10 +10,14 @@ from pydantic import BaseModel, Field
 
 
 class ObjectiveInput(BaseModel):
-    """Input schema for a learning objective."""
+    """Input schema for a learning objective / learning activity."""
 
     order: int
     text: str
+    periods: Optional[int] = None
+    teaching_methods: Optional[str] = None
+    resources: Optional[str] = None
+    assessment_criteria: Optional[str] = None
 
 
 class SubTopicInput(BaseModel):
@@ -42,6 +46,7 @@ class SyllabusInput(BaseModel):
     subject: str
     form: str
     source_note: Optional[str] = None
+    periods_per_week: Optional[int] = Field(default=None, ge=1)
     topics: list[TopicInput] = []
 
 
@@ -91,6 +96,10 @@ class ObjectiveResponse(BaseModel):
     id: int
     order: int
     text: str
+    periods: Optional[int] = None
+    teaching_methods: Optional[str] = None
+    resources: Optional[str] = None
+    assessment_criteria: Optional[str] = None
 
     model_config = {"from_attributes": True}
 
@@ -128,6 +137,7 @@ class SyllabusResponse(BaseModel):
     subject: str
     form: str
     source_note: Optional[str] = None
+    periods_per_week: Optional[int] = None
     created_at: datetime.datetime
     topics: list[TopicResponse] = []
 
@@ -185,6 +195,7 @@ class AllocationAssignmentResponse(BaseModel):
     periods: int
     split_index: Optional[int] = None
     split_total: Optional[int] = None
+    week_budget: Optional[int] = None
 
     model_config = {"from_attributes": True}
 
@@ -195,6 +206,10 @@ class AllocationResponse(BaseModel):
     syllabus_id: int
     calendar_id: int
     assignments: list[AllocationAssignmentResponse] = []
+    total_planned: Optional[int] = None
+    total_allocated: Optional[int] = None
+    capacity: Optional[int] = None
+    fit: Optional[str] = None
 
 
 class SchemeOfWorkEntry(BaseModel):
@@ -209,6 +224,7 @@ class SchemeOfWorkEntry(BaseModel):
     periods: int
     teaching_methods: Optional[str] = None
     teaching_resources: Optional[str] = None
+    assessment: Optional[str] = None
     references: Optional[str] = None
 
 
@@ -230,6 +246,7 @@ class LessonPlanResponse(BaseModel):
     assignment_id: int
     period_number: int
     date: Optional[datetime.date] = None
+    learning_activity: Optional[str] = None
     teacher_activities: Optional[str] = None
     student_activities: Optional[str] = None
     assessment: Optional[str] = None

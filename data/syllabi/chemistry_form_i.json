@@ -1,0 +1,123 @@
+{
+  "subject": "Chemistry",
+  "form": "Form I",
+  "source_note": "TIE (2023), Chemistry Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 3,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Demonstrate mastery of basic concepts, theories and principles in Chemistry",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Demonstrate mastery of concepts, theories and principles in Chemistry",
+          "planned_periods": 78,
+          "competences": [
+            "(a) Describe the concept of Chemistry (meaning, branches, applications and relationships with other disciplines)",
+            "(b) Discuss the contribution of Chemistry in the development of modern society",
+            "(c) Describe the concept of matter (physical and chemical changes of matter)",
+            "(d) Describe the concepts of chemical elements (criteria for assigning chemical symbols), compounds (binary compound) and mixtures (types of solution and separation of mixtures)",
+            "(e) Compare the properties of compounds with those of constituent elements",
+            "(f) Explain the concept of the periodic table (1st 20 elements in the Periodic Table; metals and non-metals)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe the concept of Chemistry (meaning, branches, applications and relationships with other disciplines)",
+              "periods": 13,
+              "teaching_methods": "Brainstorming, Project works",
+              "resources": "Pictures, diagrams, simulations, animations or videos illustrating the meaning, branches, applications and relationship with other disciplines",
+              "assessment_criteria": "The concept of Chemistry is clearly described"
+            },
+            {
+              "order": 2,
+              "text": "(b) Discuss the contribution of Chemistry in the development of modern society",
+              "periods": 13,
+              "teaching_methods": "Field visit",
+              "resources": "Simulations, animations or videos illustrating the contribution of Chemistry in the development of modern society",
+              "assessment_criteria": "The contribution of Chemistry in the development of modern society is clearly recognised"
+            },
+            {
+              "order": 3,
+              "text": "(c) Describe the concept of matter (physical and chemical changes of matter)",
+              "periods": 13,
+              "teaching_methods": "Practical work, Experimentation",
+              "resources": "Ice, water, source of heat, evaporating basin, metal nails,beaker, table salt, sugar, iodine crystals, magnet, magnesium ribbon, acids, fruits, paper, CuSO 4 solution, aluminium foil, candle, CaCO , 3 Pb(NO ) 3 2 solution and simulations and videos illustrating physical and chemical changes of matter",
+              "assessment_criteria": "The concept of matter is clearly described"
+            },
+            {
+              "order": 4,
+              "text": "(d) Describe the concepts of chemical elements (criteria for assigning chemical symbols), compounds (binary compound) and mixtures (types of solution and separation of mixtures)",
+              "periods": 13,
+              "teaching_methods": "Think-ink-pair-share, Hands-on-minds-on",
+              "resources": "Periodic table, copper, zinc, aluminium, iron, sulphur, hydrogen, common salt, iron filings, magnet, powdered sulphur, crucible and lid, heat source, HCl solution, water, chalk FeS, milk, clay soil,",
+              "assessment_criteria": "The concepts of chemical elements, compounds and mixture are clearly described"
+            },
+            {
+              "order": 5,
+              "text": "(e) Compare the properties of compounds with those of constituent elements",
+              "periods": 13,
+              "teaching_methods": "Group discussion, Technological-based learning",
+              "resources": "margarine, filter paper, funnel, ethanol, iodine crystals, kerosene, ink, sugar, wall charts, and pictures of distillers",
+              "assessment_criteria": "The properties of compounds are correctly compared with those of constituent elements"
+            },
+            {
+              "order": 6,
+              "text": "(f) Explain the concept of the periodic table (1st 20 elements in the Periodic Table; metals and non-metals)",
+              "periods": 13,
+              "teaching_methods": "Outdoor activity, Project works",
+              "resources": "Diagrams, pictures, wall charts, simulations and videos illustrating 1st 20 elements in the Periodic Table; metals and non-metals",
+              "assessment_criteria": "The concept of the periodic table is clearly explained"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Conduct experiments in Chemistry",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Conduct experiments in Chemistry",
+          "planned_periods": 39,
+          "competences": [
+            "(a) Describe basic Chemistry laboratory skills (chemistry laboratory rules and safety measures, first aid, fire and firefighting, and Chemistry laboratory apparatus)",
+            "(b) Perform experiments on the changes of matter from one state to another",
+            "(c) Perform experiments on separation of different mixtures using different methods"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe basic Chemistry laboratory skills (chemistry laboratory rules and safety measures, first aid, fire and firefighting, and Chemistry laboratory apparatus)",
+              "periods": 13,
+              "teaching_methods": "Group discussion, Guest speaker from fire brigade, Outdoor activity",
+              "resources": "Laboratory manuals, models, pictures, wall charts with written laboratory rules, first aid kit, laboratory apparatus, fire extinguishers and videos illustrating basic chemistry laboratory skills",
+              "assessment_criteria": "Basic Chemistry laboratory skills are clearly described"
+            },
+            {
+              "order": 2,
+              "text": "(b) Perform experiments on the changes of matter from one state to another",
+              "periods": 13,
+              "teaching_methods": "Experimentation",
+              "resources": "Ice, water, iron chips, heat source, clay soil, margarine, filter paper, funnel, iodine crystals, anhydrous CuSO 4 kerosene, salt and sugar",
+              "assessment_criteria": "Experiments on the changes of matter from one state to another are correctly performed"
+            },
+            {
+              "order": 3,
+              "text": "(c) Perform experiments on separation of different mixtures using different methods",
+              "periods": 13,
+              "teaching_methods": "Home-based project, Experimentation, Questions and answers",
+              "resources": "Common salt, iron filings, magnet, powdered Sulphur, crucible and lid, heat source, HCl solution, FeS, milk, clay soil, margarine, kerosene, filter paper, funnel, ethanol, kerosene, ink, sugar, distillation system and animations or videos illustrating separation of different mixtures using different methods",
+              "assessment_criteria": "Experiments on separation of different mixtures using different methods are correctly performed"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

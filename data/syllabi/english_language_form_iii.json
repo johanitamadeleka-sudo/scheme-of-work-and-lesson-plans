@@ -1,0 +1,650 @@
+{
+  "subject": "English Language",
+  "form": "Form III",
+  "source_note": "TIE (2023), English Language Syllabus for Ordinary Secondary Education Form I-IV",
+  "periods_per_week": 5,
+  "topics": [
+    {
+      "order": 1,
+      "topic_id_code": "1.0",
+      "title": "Manage information search from different sources for lifelong learning",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "1.1",
+          "title": "Organise information obtained from different sources",
+          "planned_periods": 8,
+          "competences": [
+            "(a) Identify different ways/strategies for organising information from various sources",
+            "(b) Sort and categorise information obtained from various sources into related themes",
+            "(c) Compile information searched from various sources"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Identify different ways/strategies for organising information from various sources",
+              "periods": 3,
+              "teaching_methods": "Information search",
+              "resources": "Journals, written texts, newspapers, encyclopedias, magazines",
+              "assessment_criteria": "Strategies for organising information from various sources are identified"
+            },
+            {
+              "order": 2,
+              "text": "(b) Sort and categorise information obtained from various sources into related themes",
+              "periods": 3,
+              "teaching_methods": "I do, we do, you do (Gradual release of responsibility): Guide the students through using the “I do, you do” meth",
+              "resources": null,
+              "assessment_criteria": "Information obtained from various sources is sorted and categorized appropriately into related themes"
+            },
+            {
+              "order": 3,
+              "text": "(c) Compile information searched from various sources",
+              "periods": 2,
+              "teaching_methods": "Project, I do, we do, you do",
+              "resources": null,
+              "assessment_criteria": "Information searched from various sources is compiled properly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "topic_id_code": "2.0",
+      "title": "Demonstrate mastery of English language skills",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "2.1",
+          "title": "Use appropriate grammar and vocabulary in oral and in written language tasks",
+          "planned_periods": 20,
+          "competences": [
+            "(a) Hold conversations about various contexts using appropriate grammar and vocabulary (structure: tenses, adverbs, adjectives, active and passive voice, conjunctions, coordinators, prepositions)",
+            "(b) Compose stories using proper grammar and vocabulary (structure: tenses, adverbs, adjectives, active and passive voice, conjunctions, coordinators, prepositions)",
+            "(c) Describe events (e.g., general elections, state funerals, world cup) using correct grammar and vocabulary"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Hold conversations about various contexts using appropriate grammar and vocabulary (structure: tenses, adverbs, adjectives, active and passive voice, conjunctions, coordinators, prepositions)",
+              "periods": 7,
+              "teaching_methods": "Scenario, Debates, Interviews, Telephoning",
+              "resources": "Written texts of different types, dictionaries, encyclopaedias, oral texts, audio and audio - visual materials (audio/video clips, recorded stories)",
+              "assessment_criteria": "Conversations about various contexts using appropriate grammar and vocabulary are held"
+            },
+            {
+              "order": 2,
+              "text": "(b) Compose stories using proper grammar and vocabulary (structure: tenses, adverbs, adjectives, active and passive voice, conjunctions, coordinators, prepositions)",
+              "periods": 7,
+              "teaching_methods": "Brainstorming, Story mapping, Composition",
+              "resources": null,
+              "assessment_criteria": "Stories using proper grammar and vocabulary are composed"
+            },
+            {
+              "order": 3,
+              "text": "(c) Describe events (e.g., general elections, state funerals, world cup) using correct grammar and vocabulary",
+              "periods": 6,
+              "teaching_methods": "Brainstorming, Talk show, Description",
+              "resources": null,
+              "assessment_criteria": "Events are described by using correct grammar and vocabulary"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "topic_id_code": "3.0",
+      "title": "Comprehend oral and written information",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "3.1",
+          "title": "Read texts for comprehension",
+          "planned_periods": 9,
+          "competences": [
+            "(a) Distinguish facts from opinions within a given text",
+            "(b) Express connotative meanings of words in relation to a text",
+            "(c) Paraphrase a given text"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Distinguish facts from opinions within a given text",
+              "periods": 3,
+              "teaching_methods": "Questions and answers, Reading, Pair work",
+              "resources": "Books, dictionaries, encyclopaedia, newspaper articles, journals",
+              "assessment_criteria": "Facts and opinions within a given text are distinguished correctly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Express connotative meanings of words in relation to a text",
+              "periods": 3,
+              "teaching_methods": "Discussion",
+              "resources": null,
+              "assessment_criteria": "Connotative meanings of words in relation to a text are expressed appropriately"
+            },
+            {
+              "order": 3,
+              "text": "(c) Paraphrase a given text",
+              "periods": 3,
+              "teaching_methods": "Brainstorming, Snowball discussions, Paraphrasing",
+              "resources": null,
+              "assessment_criteria": "A given text is paraphrased correctly"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "3.2",
+          "title": "Comprehend oral messages with increasing difficulty",
+          "planned_periods": 7,
+          "competences": [
+            "(a) Discuss information from various oral sources",
+            "(b) Respond to various oral messages",
+            "(c) Make comments on oral messages"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Discuss information from various oral sources",
+              "periods": 3,
+              "teaching_methods": "Discussions, Interview, Project work",
+              "resources": "Oral texts, audio and audio-visual materials (audio/video clips, recorded stories)",
+              "assessment_criteria": "Information from various oral sources is discussed appropriately"
+            },
+            {
+              "order": 2,
+              "text": "(b) Respond to various oral messages",
+              "periods": 2,
+              "teaching_methods": "Roleplay, Interviews",
+              "resources": null,
+              "assessment_criteria": "Various oral messages are responded to accordingly"
+            },
+            {
+              "order": 3,
+              "text": "(c) Make comments on oral messages",
+              "periods": 2,
+              "teaching_methods": "Investigation, Songs/reading aloud, Presentation",
+              "resources": null,
+              "assessment_criteria": "Oral messages are commented on precisely"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "sub_topic_id_code": "3.3",
+          "title": "Respond appropriately in a variety of oral and written communication contexts",
+          "planned_periods": 13,
+          "competences": [
+            "(a) Express ideas, opinions and facts in mass communication contexts",
+            "(b) Use and interpret appropriate non-verbal cues in mass communication",
+            "(c) Use appropriate language to respond to contextualised public messages (e.g., responding to criticism, accomplishment)",
+            "(d) Use appropriate language in public communication settings, (e.g., interviews, presentations)",
+            "(e) Express appreciation of other people’s ideas in public communication",
+            "(f) Evaluate information received through mass communication"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Express ideas, opinions and facts in mass communication contexts",
+              "periods": 3,
+              "teaching_methods": "Talk show, Discussion",
+              "resources": "Dictionaries, a variety of texts, audio and audio-visual materials (audio/video clips, recorded stories)",
+              "assessment_criteria": "Opinions and facts in mass communication are expressed clearly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Use and interpret appropriate non-verbal cues in mass communication",
+              "periods": 2,
+              "teaching_methods": "Watching TV programmes/shows, Group work",
+              "resources": null,
+              "assessment_criteria": "Non-verbal cues in mass communication are interpreted and used appropriately"
+            },
+            {
+              "order": 3,
+              "text": "(c) Use appropriate language to respond to contextualised public messages (e.g., responding to criticism, accomplishment)",
+              "periods": 2,
+              "teaching_methods": "Brainstorming, Group work",
+              "resources": null,
+              "assessment_criteria": "Contextualized public messages are responded to by using appropriate language"
+            },
+            {
+              "order": 4,
+              "text": "(d) Use appropriate language in public communication settings, (e.g., interviews, presentations)",
+              "periods": 2,
+              "teaching_methods": "Interview, Presentations, Debate",
+              "resources": null,
+              "assessment_criteria": "Language in public communication/ settings is used appropriately"
+            },
+            {
+              "order": 5,
+              "text": "(e) Express appreciation of other people’s ideas in public communication",
+              "periods": 2,
+              "teaching_methods": "Gallery walk, Dialogue",
+              "resources": null,
+              "assessment_criteria": "Appreciations of other people’s ideas in public communication are expressed suitably"
+            },
+            {
+              "order": 6,
+              "text": "(f) Evaluate information received through mass communication",
+              "periods": 2,
+              "teaching_methods": "TIPS, Modelling, Shared practice, Collaborative and independent practice",
+              "resources": null,
+              "assessment_criteria": "Information received through mass communication is evaluated appropriately"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "sub_topic_id_code": "3.4",
+          "title": "Construct meaning from a variety of texts",
+          "planned_periods": 13,
+          "competences": [
+            "(a) Compare ideas from various texts",
+            "(b) Read and generate meanings from a variety of texts",
+            "(c) Infer meanings of unfamiliar words from a variety of texts",
+            "(d) Paraphrase textual information from multiple sources"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Compare ideas from various texts",
+              "periods": 4,
+              "teaching_methods": "Brainstorming, Close reading",
+              "resources": "Books, dictionaries, encyclopaedia, newspaper articles, journals",
+              "assessment_criteria": "Ideas from various texts are compared correctly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Read and generate meanings from a variety of texts",
+              "periods": 3,
+              "teaching_methods": "Pair work, Discussion",
+              "resources": null,
+              "assessment_criteria": "Meanings from a variety of texts are generated"
+            },
+            {
+              "order": 3,
+              "text": "(c) Infer meanings of unfamiliar words from a variety of texts",
+              "periods": 3,
+              "teaching_methods": "Modelling, Collaborative and independent practice",
+              "resources": null,
+              "assessment_criteria": "Meanings of unfamiliar words from a variety of texts are inferred correctly"
+            },
+            {
+              "order": 4,
+              "text": "(d) Paraphrase textual information from multiple sources",
+              "periods": 3,
+              "teaching_methods": "I do, we do, you do, Modelling, Shared practice, Collaborative and independent practice",
+              "resources": null,
+              "assessment_criteria": "Textual information from multiple sources is paraphrased properly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "topic_id_code": "4.0",
+      "title": "Communicate effectively in different contexts",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "4.1",
+          "title": "Use appropriate grammar and vocabulary for oral communication in a variety of contexts",
+          "planned_periods": 16,
+          "competences": [
+            "(a) Express opinions through debates, dialogues and impromptu speeches using formulaic language (e.g., In my opinion…, personally…, I think …, I would say…, In my view…, from my perspective…, My point is…, It seems to me that…, I believe…)",
+            "(b) Present facts logically using appropriate formulaic language (e.g., due to the fact that…, it is true that…, the bottom line is…, the reality is…, in fact…actually… according to…)",
+            "(c) Describe conditions about various situations and circumstances (structure: conditional sentences)",
+            "(d) Ask and respond to questions in interview sessions (e.g., job interview, panel interview, TV/radio interview)",
+            "(e) Describe activities and events of a social or cultural nature (e.g., celebrations, parades, accidents, elections, funerals, sport and games) using different tenses"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Express opinions through debates, dialogues and impromptu speeches using formulaic language (e.g., In my opinion…, personally…, I think …, I would say…, In my view…, from my perspective…, My point is…, It seems to me that…, I believe…)",
+              "periods": 4,
+              "teaching_methods": "Debate, Dialogue, Delivering impromptu speeches",
+              "resources": "Speakers, recorded materials (audio/video clips, recorded stories) on various situations",
+              "assessment_criteria": "Opinions are expressed through debates, dialogues, and impromptu speeches using formulaic language"
+            },
+            {
+              "order": 2,
+              "text": "(b) Present facts logically using appropriate formulaic language (e.g., due to the fact that…, it is true that…, the bottom line is…, the reality is…, in fact…actually… according to…)",
+              "periods": 3,
+              "teaching_methods": "Presentation, Debate",
+              "resources": null,
+              "assessment_criteria": "Facts are logically presented using appropriate formulaic language"
+            },
+            {
+              "order": 3,
+              "text": "(c) Describe conditions about various situations and circumstances (structure: conditional sentences)",
+              "periods": 3,
+              "teaching_methods": "Investigation, Chain conditionals (Conditional train), Pelmanism (Concentration) game, Group discussion, Songs",
+              "resources": null,
+              "assessment_criteria": "Conditions about various situations and circumstances are described appropriately"
+            },
+            {
+              "order": 4,
+              "text": "(d) Ask and respond to questions in interview sessions (e.g., job interview, panel interview, TV/radio interview)",
+              "periods": 3,
+              "teaching_methods": "Modelling, Interview/roleplay",
+              "resources": null,
+              "assessment_criteria": "Interview questions are asked and responded to correctly"
+            },
+            {
+              "order": 5,
+              "text": "(e) Describe activities and events of a social or cultural nature (e.g., celebrations, parades, accidents, elections, funerals, sport and games) using different tenses",
+              "periods": 3,
+              "teaching_methods": "Description",
+              "resources": null,
+              "assessment_criteria": "Social- cultural activities and events are described properly"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "4.2",
+          "title": "Create a variety of texts for different communicative purposes using the appropriate tone and register",
+          "planned_periods": 9,
+          "competences": [
+            "(a) Write a letter to the editor, an order letter and a complaint letter (structure: Dear editor.., I would like to order…. We are glad to place our first order…, I am writing to complain about…, I am writing to bring your attention…, a complaint against…)",
+            "(b) Write reports on various events (e.g., sports, graduation, study tours)",
+            "(c) Write biographies (structure: past and present tense, third person)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Write a letter to the editor, an order letter and a complaint letter (structure: Dear editor.., I would like to order…. We are glad to place our first order…, I am writing to complain about…, I am writing to bring your attention…, a complaint against…)",
+              "periods": 3,
+              "teaching_methods": "Observation and discussion, Collaborative and independent practice",
+              "resources": "Relevant texts, dictionaries, samples of letter to the editor, order and complaint letters",
+              "assessment_criteria": "Letter to the editor, order and complaint letters are written correctly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Write reports on various events (e.g., sports, graduation, study tours)",
+              "periods": 3,
+              "teaching_methods": "Observation/team building game, Project activity",
+              "resources": null,
+              "assessment_criteria": "Reports on various events are written appropriately"
+            },
+            {
+              "order": 3,
+              "text": "(c) Write biographies (structure: past and present tense, third person)",
+              "periods": 3,
+              "teaching_methods": "Biographies, Biography graphic organisers",
+              "resources": null,
+              "assessment_criteria": "Biographies are written correctly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "topic_id_code": "5.0",
+      "title": "Provide basic English language services to the community",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "5.1",
+          "title": "Apply principles of editing and proofreading in a variety of texts",
+          "planned_periods": 8,
+          "competences": [
+            "(a) Recognise the basic principles of editing and proofreading texts (e.g., sentence construction, language clarity, grammar, semantic rules, logical flow)",
+            "(b) Describe the main steps of editing and proofreading",
+            "(c) Describe the basic principles and methods of editing and proofreading",
+            "(d) Use the principles of editing and proofreading to edit and proofread simple and short texts in a school context (e.g., laboratory rules, announcements)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Recognise the basic principles of editing and proofreading texts (e.g., sentence construction, language clarity, grammar, semantic rules, logical flow)",
+              "periods": 2,
+              "teaching_methods": "Snowball discussions",
+              "resources": "Relevant texts, school rules and regulations, fliers, user manuals, various essays/ compositions, dictionaries",
+              "assessment_criteria": "The basic principles of editing and proofreading are recognised"
+            },
+            {
+              "order": 2,
+              "text": "(b) Describe the main steps of editing and proofreading",
+              "periods": 2,
+              "teaching_methods": "Assignment",
+              "resources": null,
+              "assessment_criteria": "The main steps in editing and proofreading are described accurately"
+            },
+            {
+              "order": 3,
+              "text": "(c) Describe the basic principles and methods of editing and proofreading",
+              "periods": 2,
+              "teaching_methods": "Description",
+              "resources": null,
+              "assessment_criteria": "The basic principles and methods of editing and proofreading are described properly"
+            },
+            {
+              "order": 4,
+              "text": "(d) Use the principles of editing and proofreading to edit and proofread simple and short texts in a school context (e.g., laboratory rules, announcements)",
+              "periods": 2,
+              "teaching_methods": "Modelling, Shared practice, Collaborative and independent practice",
+              "resources": null,
+              "assessment_criteria": "The principles of editing and proofreading simple texts in the school context are used appropriately"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "5.2",
+          "title": "Apply principles of interpretation to provide simple authentic interpretations",
+          "planned_periods": 9,
+          "competences": [
+            "(a) Explain the concept of interpretation",
+            "(b) Elaborate the principles of interpretation",
+            "(c) Interpret a short simple text in a school context (e.g., greetings, self introductions) (English to Kiswahili and vice versa)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Explain the concept of interpretation",
+              "periods": 3,
+              "teaching_methods": "Know Want Learned (KWL) chart, Group work",
+              "resources": "Dictionaries, oral texts, audio and audio-visual materials (audio/video clips, recorded stories)",
+              "assessment_criteria": "The concept of interpretation is explained accurately"
+            },
+            {
+              "order": 2,
+              "text": "(b) Elaborate the principles of interpretation",
+              "periods": 3,
+              "teaching_methods": "Information search",
+              "resources": null,
+              "assessment_criteria": "The principles of interpretation are elaborated precisely"
+            },
+            {
+              "order": 3,
+              "text": "(c) Interpret a short simple text in a school context (e.g., greetings, self introductions) (English to Kiswahili and vice versa)",
+              "periods": 3,
+              "teaching_methods": "Simultaneous and consecutive interpretation",
+              "resources": null,
+              "assessment_criteria": "Short messages in the school context are interpreted appropriately"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "sub_topic_id_code": "5.3",
+          "title": "Apply principles of translation to produce simple authentic translation",
+          "planned_periods": 9,
+          "competences": [
+            "(a) Explain the concept of translation",
+            "(b) Elaborate the principles of translation",
+            "(c) Translate a simple short text in a school context (e.g., laboratory rules, timetables, joining instructions) (English to Kiswahili and vice versa)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Explain the concept of translation",
+              "periods": 3,
+              "teaching_methods": "Brainstorming",
+              "resources": "Dictionaries, a variety of texts",
+              "assessment_criteria": "The concept of translation is explained correctly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Elaborate the principles of translation",
+              "periods": 3,
+              "teaching_methods": "Discussion",
+              "resources": null,
+              "assessment_criteria": "The principles of translation are elaborated correctly"
+            },
+            {
+              "order": 3,
+              "text": "(c) Translate a simple short text in a school context (e.g., laboratory rules, timetables, joining instructions) (English to Kiswahili and vice versa)",
+              "periods": 3,
+              "teaching_methods": "I do, we do, you do, Modelling, Shared practice, Collaborative and independent practice",
+              "resources": null,
+              "assessment_criteria": "Texts in the school context are translated correctly"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "topic_id_code": "6.0",
+      "title": "Appreciate and create literary works",
+      "sub_topics": [
+        {
+          "order": 1,
+          "sub_topic_id_code": "6.1",
+          "title": "Appreciate the aesthetics and value of literature",
+          "planned_periods": 15,
+          "competences": [
+            "(a) Assess the language used in selected poems and plays",
+            "(b) Compare own values and perspectives with those implied in selected poems and plays"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Assess the language used in selected poems and plays",
+              "periods": 8,
+              "teaching_methods": "Brainstorming, Shared practice, Collaborative and independent practice",
+              "resources": "Literary texts, audio/ audio-visual materials, artistic drawings, dictionaries",
+              "assessment_criteria": "The language used in selected poems and plays is assessed appropriately."
+            },
+            {
+              "order": 2,
+              "text": "(b) Compare own values and perspectives with those implied in selected poems and plays",
+              "periods": 7,
+              "teaching_methods": "TIPS, Pair work",
+              "resources": null,
+              "assessment_criteria": "Own values and perspectives are compared appropriately with those implied in selected poems and plays"
+            }
+          ]
+        },
+        {
+          "order": 2,
+          "sub_topic_id_code": "6.2",
+          "title": "Evaluate the context in which literary texts are written, read and understood",
+          "planned_periods": 9,
+          "competences": [
+            "(a) Assess the socio-political and cultural contexts in which the selected poems and plays were written",
+            "(b) Examine the socio-political, economic and cultural issues portrayed in selected poems and plays",
+            "(c) Relate the context of the story in selected poems and plays with real life experiences"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Assess the socio-political and cultural contexts in which the selected poems and plays were written",
+              "periods": 3,
+              "teaching_methods": "Information search, Group work",
+              "resources": "A variety of literary texts, dictionaries",
+              "assessment_criteria": "The socio-political and cultural contexts in which the selected poems and plays were written are assessed appropriately"
+            },
+            {
+              "order": 2,
+              "text": "(b) Examine the socio-political, economic and cultural issues portrayed in selected poems and plays",
+              "periods": 3,
+              "teaching_methods": "Collaborative practice",
+              "resources": null,
+              "assessment_criteria": "The socio-political, economic and cultural issues portrayed in selected poems and plays are examined appropriately"
+            },
+            {
+              "order": 3,
+              "text": "(c) Relate the context of the story in selected poems and plays with real life experiences",
+              "periods": 3,
+              "teaching_methods": "Brainstorming, Pair work",
+              "resources": null,
+              "assessment_criteria": "The context of the story in selected poems and plays is related properly with real-life experiences"
+            }
+          ]
+        },
+        {
+          "order": 3,
+          "sub_topic_id_code": "6.3",
+          "title": "Analyse genres of literature and appreciate their conventions",
+          "planned_periods": 17,
+          "competences": [
+            "(a) Describe different genres of written literature and their conventions",
+            "(b) Analyse techniques of critiquing poems and plays based on their conventions",
+            "(c) Critique selected poems and plays based on form and content"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Describe different genres of written literature and their conventions",
+              "periods": 6,
+              "teaching_methods": "Two Truths and a Lie, Discussion/Group work",
+              "resources": "A variety of literary texts, dictionaries",
+              "assessment_criteria": "Different genres of literature and their conventions are described correctly"
+            },
+            {
+              "order": 2,
+              "text": "(b) Analyse techniques of critiquing poems and plays based on their conventions",
+              "periods": 6,
+              "teaching_methods": "Information search, Pair work",
+              "resources": null,
+              "assessment_criteria": "Techniques for critiquing poems and plays based on their conventions are analysed appropriately"
+            },
+            {
+              "order": 3,
+              "text": "(c) Critique selected poems and plays based on form and content",
+              "periods": 5,
+              "teaching_methods": "Brainstorming, Group work",
+              "resources": null,
+              "assessment_criteria": "Poems and plays are clearly critiqued based on form and content"
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "sub_topic_id_code": "6.4",
+          "title": "Create simple literary works",
+          "planned_periods": 13,
+          "competences": [
+            "(a) Compose free verse poems on various topics using literary language",
+            "(b) Publish the poems on various platforms (e.g., note boards and online platforms)"
+          ],
+          "objectives": [
+            {
+              "order": 1,
+              "text": "(a) Compose free verse poems on various topics using literary language",
+              "periods": 7,
+              "teaching_methods": "Think-aloud-pair problem solving, Collaborative and independent practice",
+              "resources": "Literary texts, audio/ audio-visual materials(audio/ video clips, recorded stories), artistic drawings, dictionaries",
+              "assessment_criteria": "Topics for composing poems are identified appropriately"
+            },
+            {
+              "order": 2,
+              "text": "(b) Publish the poems on various platforms (e.g., note boards and online platforms)",
+              "periods": 6,
+              "teaching_methods": "Publishing",
+              "resources": null,
+              "assessment_criteria": "Poems are published properly on various platforms"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
